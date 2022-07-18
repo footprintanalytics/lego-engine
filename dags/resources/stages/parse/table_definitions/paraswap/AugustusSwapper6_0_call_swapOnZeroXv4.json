@@ -1,0 +1,82 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        "abi": {
+            "inputs": [
+                {
+                    "internalType": "contract IERC20",
+                    "name": "fromToken",
+                    "type": "address"
+                },
+                {
+                    "internalType": "contract IERC20",
+                    "name": "toToken",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "fromAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amountOutMin",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address payable",
+                    "name": "exchange",
+                    "type": "address"
+                },
+                {
+                    "internalType": "bytes",
+                    "name": "payload",
+                    "type": "bytes"
+                }
+            ],
+            "name": "swapOnZeroXv4",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "paraswap",
+        "table_name": "AugustusSwapper6_0_call_swapOnZeroXv4",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "fromToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fromAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountOutMin",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "exchange",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "payload",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

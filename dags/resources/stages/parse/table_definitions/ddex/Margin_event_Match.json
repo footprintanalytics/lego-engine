@@ -1,0 +1,148 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x241e82c79452f51fbfc89fac6d912e021db1a3b7",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "components": [
+                        {
+                            "name": "baseAsset",
+                            "type": "address"
+                        },
+                        {
+                            "name": "quoteAsset",
+                            "type": "address"
+                        },
+                        {
+                            "name": "relayer",
+                            "type": "address"
+                        }
+                    ],
+                    "name": "addressSet",
+                    "type": "tuple"
+                },
+                {
+                    "name": "maker",
+                    "type": "address"
+                },
+                {
+                    "name": "taker",
+                    "type": "address"
+                },
+                {
+                    "name": "buyer",
+                    "type": "address"
+                },
+                {
+                    "name": "makerFee",
+                    "type": "uint256"
+                },
+                {
+                    "name": "makerRebate",
+                    "type": "uint256"
+                },
+                {
+                    "name": "takerFee",
+                    "type": "uint256"
+                },
+                {
+                    "name": "makerGasFee",
+                    "type": "uint256"
+                },
+                {
+                    "name": "takerGasFee",
+                    "type": "uint256"
+                },
+                {
+                    "name": "baseAssetFilledAmount",
+                    "type": "uint256"
+                },
+                {
+                    "name": "quoteAssetFilledAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Match",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "ddex",
+        "table_name": "Margin_event_Match",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "addressSet",
+                "description": "",
+                "type": "RECORD",
+                "fields": [
+                    {
+                        "name": "relayer",
+                        "type": "STRING"
+                    },
+                    {
+                        "name": "baseAsset",
+                        "type": "STRING"
+                    },
+                    {
+                        "name": "quoteAsset",
+                        "type": "STRING"
+                    }
+                ]
+            },
+            {
+                "name": "maker",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "taker",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "buyer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "makerFee",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "makerRebate",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "takerFee",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "makerGasFee",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "takerGasFee",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "baseAssetFilledAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "quoteAssetFilledAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

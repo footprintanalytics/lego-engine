@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27','0x06364f10b501e868329afbc005b3492902d6c763','0xa5407eae9ba41422680e2e00537571bcc53efbfd','0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51'",
+        "abi": {
+            "name": "AddLiquidity",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "provider",
+                    "indexed": true
+                },
+                {
+                    "type": "uint256[4]",
+                    "name": "token_amounts",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256[4]",
+                    "name": "fees",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "invariant",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "token_supply",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "curve",
+        "table_name": "swap_4coin_v1_event_AddLiquidity",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "provider",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token_amounts",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fees",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "invariant",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token_supply",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

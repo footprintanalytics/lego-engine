@@ -1,0 +1,104 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "failTime",
+    "name": "fail_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "status",
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "userId",
+    "name": "user_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "productId",
+    "name": "product_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "merchantId",
+    "name": "merchant_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "pricingType",
+    "name": "pricing_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "externalCode",
+    "name": "external_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "externalId",
+    "name": "external_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "paymentLink",
+    "name": "payment_link",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "notifyUrl",
+    "name": "notify_url",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "actualPaymentAmount",
+    "name": "actual_payment_amount",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "amount",
+    "name": "amount",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "isUse",
+    "name": "is_use",
+    "type": "BOOL",
+    "mode": "NULLABLE"
+  },
+    {
+    "description": "paymentChannel",
+    "name": "payment_channel",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

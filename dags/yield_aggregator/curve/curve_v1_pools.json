@@ -1,0 +1,818 @@
+[
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi DAI/USDC/USDT",
+    "pool_symbol": "3Crv",
+    "pool_address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT",
+    "pool_symbol": "3Crv",
+    "pool_address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT",
+    "pool_symbol": "3Crv",
+    "pool_address": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7"
+  },
+  {
+    "token_symbol": "aDAI",
+    "token_address": "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
+    "decimals": 18,
+    "pool_name": "Curve.fi aDAI/aUSDC/aUSDT",
+    "pool_symbol": "a3CRV",
+    "pool_address": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi aDAI/aUSDC/aUSDT",
+    "pool_symbol": "a3CRV",
+    "pool_address": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"
+  },
+  {
+    "token_symbol": "aUSDC",
+    "token_address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
+    "decimals": 6,
+    "pool_name": "Curve.fi aDAI/aUSDC/aUSDT",
+    "pool_symbol": "a3CRV",
+    "pool_address": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi aDAI/aUSDC/aUSDT",
+    "pool_symbol": "a3CRV",
+    "pool_address": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"
+  },
+  {
+    "token_symbol": "aUSDT",
+    "token_address": "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
+    "decimals": 6,
+    "pool_name": "Curve.fi aDAI/aUSDC/aUSDT",
+    "pool_symbol": "a3CRV",
+    "pool_address": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi aDAI/aUSDC/aUSDT",
+    "pool_symbol": "a3CRV",
+    "pool_address": "0xDeBF20617708857ebe4F679508E7b7863a8A8EeE"
+  },
+  {
+    "token_symbol": "ETH",
+    "token_address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/aETH",
+    "pool_symbol": "ankrCRV",
+    "pool_address": "0xA96A65c051bF88B4095Ee1f2451C2A9d43F53Ae2"
+  },
+  {
+    "token_symbol": "ankrETH",
+    "token_address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/aETH",
+    "pool_symbol": "ankrCRV",
+    "pool_address": "0xA96A65c051bF88B4095Ee1f2451C2A9d43F53Ae2"
+  },
+  {
+    "token_symbol": "bBTC",
+    "token_address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
+    "decimals": 8,
+    "pool_name": "Curve.fi bBTC/sbtcCRV",
+    "pool_symbol": "bBTC/sbtcCRV",
+    "pool_address": "0xC45b2EEe6e09cA176Ca3bB5f7eEe7C47bF93c756"
+  },
+  {
+    "token_symbol": "sbtcCRV",
+    "token_address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+    "decimals": 18,
+    "pool_name": "Curve.fi bBTC/sbtcCRV",
+    "pool_symbol": "bBTC/sbtcCRV",
+    "pool_address": "0xC45b2EEe6e09cA176Ca3bB5f7eEe7C47bF93c756"
+  },
+  {
+    "token_symbol": "yDAI",
+    "token_address": "0xc2cb1040220768554cf699b0d863a3cd4324ce32",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "yUSDC",
+    "token_address": "0x26ea744e5b887e5205727f55dfbe8685e3b21951",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "yUSDT",
+    "token_address": "0xe6354ed5bc4b393a5aad09f21c46e101e692d447",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "yBUSD",
+    "token_address": "0x04bc0ab673d88ae9dbc9da2380cb6b79c4bca9ae",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "BUSD",
+    "token_address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yBUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yBUSD",
+    "pool_address": "0xb6c057591e073249f2d9d88ba59a46cfc9b59edb"
+  },
+  {
+    "token_symbol": "cDAI",
+    "token_address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+    "decimals": 8,
+    "pool_name": "Curve.fi cDAI/cUSDC",
+    "pool_symbol": "cDAI+cUSDC",
+    "pool_address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi cDAI/cUSDC",
+    "pool_symbol": "cDAI+cUSDC",
+    "pool_address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06"
+  },
+  {
+    "token_symbol": "cUSDC",
+    "token_address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+    "decimals": 8,
+    "pool_name": "Curve.fi cDAI/cUSDC",
+    "pool_symbol": "cDAI+cUSDC",
+    "pool_address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi cDAI/cUSDC",
+    "pool_symbol": "cDAI+cUSDC",
+    "pool_address": "0xeb21209ae4c2c9ff2a86aca31e123764a3b6bc06"
+  },
+  {
+    "token_symbol": "DUSD",
+    "token_address": "0x5bc25f649fc4e26069ddf4cf4010f9f706c23831",
+    "decimals": 18,
+    "pool_name": "Curve.fi DUSD/3Crv",
+    "pool_symbol": "dusd3CRV",
+    "pool_address": "0x61E10659fe3aa93d036d099405224E4Ac24996d0"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi DUSD/3Crv",
+    "pool_symbol": "dusd3CRV",
+    "pool_address": "0x61E10659fe3aa93d036d099405224E4Ac24996d0"
+  },
+  {
+    "token_symbol": "EURS",
+    "token_address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
+    "decimals": 2,
+    "pool_name": "Curve.fi EURS/sEUR",
+    "pool_symbol": "eursCRV",
+    "pool_address": "0x0Ce6a5fF5217e38315f87032CF90686C96627CAA"
+  },
+  {
+    "token_symbol": "sEUR",
+    "token_address": "0xD71eCFF9342A5Ced620049e616c5035F1dB98620",
+    "decimals": 18,
+    "pool_name": "Curve.fi EURS/sEUR",
+    "pool_symbol": "eursCRV",
+    "pool_address": "0x0Ce6a5fF5217e38315f87032CF90686C96627CAA"
+  },
+  {
+    "token_symbol": "GUSD",
+    "token_address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+    "decimals": 2,
+    "pool_name": "Curve.fi GUSD/3Crv",
+    "pool_symbol": "gusd3CRV",
+    "pool_address": "0x64448B78561690B70E17CBE8029a3e5c1bB7136e"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi GUSD/3Crv",
+    "pool_symbol": "gusd3CRV",
+    "pool_address": "0x64448B78561690B70E17CBE8029a3e5c1bB7136e"
+  },
+  {
+    "token_symbol": "hBTC",
+    "token_address": "0x0316EB71485b0Ab14103307bf65a021042c6d380",
+    "decimals": 18,
+    "pool_name": "Curve.fi hBTC/wBTC",
+    "pool_symbol": "hCRV",
+    "pool_address": "0x4CA9b3063Ec5866A4B82E437059D2C43d1be596F"
+  },
+  {
+    "token_symbol": "wBTC",
+    "token_address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "decimals": 8,
+    "pool_name": "Curve.fi hBTC/wBTC",
+    "pool_symbol": "hCRV",
+    "pool_address": "0x4CA9b3063Ec5866A4B82E437059D2C43d1be596F"
+  },
+  {
+    "token_symbol": "HUSD",
+    "token_address": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+    "decimals": 8,
+    "pool_name": "Curve.fi HUSD/3Crv",
+    "pool_symbol": "husd3CRV",
+    "pool_address": "0x09672362833d8f703D5395ef3252D4Bfa51c15ca"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi HUSD/3Crv",
+    "pool_symbol": "husd3CRV",
+    "pool_address": "0x09672362833d8f703D5395ef3252D4Bfa51c15ca"
+  },
+  {
+    "token_symbol": "cyDAI",
+    "token_address": "0x8e595470ed749b85c6f7669de83eae304c2ec68f",
+    "decimals": 8,
+    "pool_name": "Curve.fi cyDAI/cyUSDC/cyUSDT",
+    "pool_symbol": "ib3CRV",
+    "pool_address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi cyDAI/cyUSDC/cyUSDT",
+    "pool_symbol": "ib3CRV",
+    "pool_address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"
+  },
+  {
+    "token_symbol": "cyUSDC",
+    "token_address": "0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c",
+    "decimals": 8,
+    "pool_name": "Curve.fi cyDAI/cyUSDC/cyUSDT",
+    "pool_symbol": "ib3CRV",
+    "pool_address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi cyDAI/cyUSDC/cyUSDT",
+    "pool_symbol": "ib3CRV",
+    "pool_address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"
+  },
+  {
+    "token_symbol": "cyUSDT",
+    "token_address": "0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a",
+    "decimals": 8,
+    "pool_name": "Curve.fi cyDAI/cyUSDC/cyUSDT",
+    "pool_symbol": "ib3CRV",
+    "pool_address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi cyDAI/cyUSDC/cyUSDT",
+    "pool_symbol": "ib3CRV",
+    "pool_address": "0x2dded6Da1BF5DBdF597C45fcFaa3194e53EcfeAF"
+  },
+  {
+    "token_symbol": "LINK",
+    "token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+    "decimals": 18,
+    "pool_name": "Curve.fi LINK/sLINK",
+    "pool_symbol": "linkCRV",
+    "pool_address": "0xf178c0b5bb7e7abf4e12a4838c7b7c5ba2c623c0"
+  },
+  {
+    "token_symbol": "sLINK",
+    "token_address": "0xbBC455cb4F1B9e4bFC4B73970d360c8f032EfEE6",
+    "decimals": 18,
+    "pool_name": "Curve.fi LINK/sLINK",
+    "pool_symbol": "linkCRV",
+    "pool_address": "0xf178c0b5bb7e7abf4e12a4838c7b7c5ba2c623c0"
+  },
+  {
+    "token_symbol": "LINKUSD",
+    "token_address": "0x0E2EC54fC0B509F445631Bf4b91AB8168230C752",
+    "decimals": 18,
+    "pool_name": "Curve.fi LinkUSD/3Crv",
+    "pool_symbol": "LinkUSD3CRV",
+    "pool_address": "0x1de7f0866e2c4adAC7b457c58Cc25c8688CDa1f2"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi LinkUSD/3Crv",
+    "pool_symbol": "LinkUSD3CRV",
+    "pool_address": "0x1de7f0866e2c4adAC7b457c58Cc25c8688CDa1f2"
+  },
+  {
+    "token_symbol": "MUSD",
+    "token_address": "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5",
+    "decimals": 18,
+    "pool_name": "Curve.fi MUSD/3Crv",
+    "pool_symbol": "musd3CRV",
+    "pool_address": "0x803A2B40c5a9BB2B86DD630B274Fa2A9202874C2"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi MUSD/3Crv",
+    "pool_symbol": "musd3CRV",
+    "pool_address": "0x803A2B40c5a9BB2B86DD630B274Fa2A9202874C2"
+  },
+  {
+    "token_symbol": "oBTC",
+    "token_address": "0x8064d9Ae6cDf087b1bcd5BDf3531bD5d8C537a68",
+    "decimals": 18,
+    "pool_name": "Curve.fi oBTC/sbtcCRV",
+    "pool_symbol": "oBTC/sbtcCRV",
+    "pool_address": "0xd5BCf53e2C81e1991570f33Fa881c49EEa570C8D"
+  },
+  {
+    "token_symbol": "sbtcCRV",
+    "token_address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+    "decimals": 18,
+    "pool_name": "Curve.fi oBTC/sbtcCRV",
+    "pool_symbol": "oBTC/sbtcCRV",
+    "pool_address": "0xd5BCf53e2C81e1991570f33Fa881c49EEa570C8D"
+  },
+  {
+    "token_symbol": "ycDAI",
+    "token_address": "0x99d1fa417f94dcd62bfe781a1213c092a47041bc",
+    "decimals": 18,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "ycUSDC",
+    "token_address": "0x9777d7e2b60bb01759d0e2f8be2095df444cb07e",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "ycUSDT",
+    "token_address": "0x1be5d71f2da660bfdee8012ddc58d024448a0a59",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "PAX",
+    "token_address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+    "decimals": 18,
+    "pool_name": "Curve.fi DAI/USDC/USDT/PAX",
+    "pool_symbol": "ypaxCrv",
+    "pool_address": "0xa50ccc70b6a011cffddf45057e39679379187287"
+  },
+  {
+    "token_symbol": "pBTC",
+    "token_address": "0x5228a22e72ccC52d415EcFd199F99D0665E7733b",
+    "decimals": 18,
+    "pool_name": "Curve.fi pBTC/sbtcCRV",
+    "pool_symbol": "pBTC/sbtcCRV",
+    "pool_address": "0x11F419AdAbbFF8d595E7d5b223eee3863Bb3902C"
+  },
+  {
+    "token_symbol": "sbtcCRV",
+    "token_address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+    "decimals": 18,
+    "pool_name": "Curve.fi pBTC/sbtcCRV",
+    "pool_symbol": "pBTC/sbtcCRV",
+    "pool_address": "0x11F419AdAbbFF8d595E7d5b223eee3863Bb3902C"
+  },
+  {
+    "token_symbol": "renBTC",
+    "token_address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+    "decimals": 8,
+    "pool_name": "Curve.fi renBTC/wBTC",
+    "pool_symbol": "crvRenWBTC",
+    "pool_address": "0x93054188d876f558f4a66B2EF1d97d16eDf0895B"
+  },
+  {
+    "token_symbol": "wBTC",
+    "token_address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "decimals": 8,
+    "pool_name": "Curve.fi renBTC/wBTC",
+    "pool_symbol": "crvRenWBTC",
+    "pool_address": "0x93054188d876f558f4a66B2EF1d97d16eDf0895B"
+  },
+  {
+    "token_symbol": "ETH",
+    "token_address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/rETH",
+    "pool_symbol": "rCRV",
+    "pool_address": "0xF9440930043eb3997fc70e1339dBb11F341de7A8"
+  },
+  {
+    "token_symbol": "rETH",
+    "token_address": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/rETH",
+    "pool_symbol": "rCRV",
+    "pool_address": "0xF9440930043eb3997fc70e1339dBb11F341de7A8"
+  },
+  {
+    "token_symbol": "RSV",
+    "token_address": "0x196f4727526eA7FB1e17b2071B3d8eAA38486988",
+    "decimals": 18,
+    "pool_name": "Curve.fi RSV/3Crv",
+    "pool_symbol": "rsv3CRV",
+    "pool_address": "0xBE175115BF33E12348ff77CcfEE4726866A0Fbd5"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi RSV/3Crv",
+    "pool_symbol": "rsv3CRV",
+    "pool_address": "0xBE175115BF33E12348ff77CcfEE4726866A0Fbd5"
+  },
+  {
+    "token_symbol": "aDAI",
+    "token_address": "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
+    "decimals": 18,
+    "pool_name": "Curve.fi aDAI/aSUSD",
+    "pool_symbol": "saCRV",
+    "pool_address": "0xeb16ae0052ed37f479f7fe63849198df1765a733"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi aDAI/aSUSD",
+    "pool_symbol": "saCRV",
+    "pool_address": "0xeb16ae0052ed37f479f7fe63849198df1765a733"
+  },
+  {
+    "token_symbol": "aSUSD",
+    "token_address": "0x6c5024cd4f8a59110119c56f8933403a539555eb",
+    "decimals": 18,
+    "pool_name": "Curve.fi aDAI/aSUSD",
+    "pool_symbol": "saCRV",
+    "pool_address": "0xeb16ae0052ed37f479f7fe63849198df1765a733"
+  },
+  {
+    "token_symbol": "SUSD",
+    "token_address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "decimals": 18,
+    "pool_name": "Curve.fi aDAI/aSUSD",
+    "pool_symbol": "saCRV",
+    "pool_address": "0xeb16ae0052ed37f479f7fe63849198df1765a733"
+  },
+  {
+    "token_symbol": "renBTC",
+    "token_address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+    "decimals": 8,
+    "pool_name": "Curve.fi renBTC/wBTC/sBTC",
+    "pool_symbol": "crvRenWSBTC",
+    "pool_address": "0x7fC77b5c7614E1533320Ea6DDc2Eb61fa00A9714"
+  },
+  {
+    "token_symbol": "wBTC",
+    "token_address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "decimals": 8,
+    "pool_name": "Curve.fi renBTC/wBTC/sBTC",
+    "pool_symbol": "crvRenWSBTC",
+    "pool_address": "0x7fC77b5c7614E1533320Ea6DDc2Eb61fa00A9714"
+  },
+  {
+    "token_symbol": "sBTC",
+    "token_address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+    "decimals": 18,
+    "pool_name": "Curve.fi renBTC/wBTC/sBTC",
+    "pool_symbol": "crvRenWSBTC",
+    "pool_address": "0x7fC77b5c7614E1533320Ea6DDc2Eb61fa00A9714"
+  },
+  {
+    "token_symbol": "ETH",
+    "token_address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/sETH",
+    "pool_symbol": "eCRV",
+    "pool_address": "0xc5424b857f758e906013f3555dad202e4bdb4567"
+  },
+  {
+    "token_symbol": "sETH",
+    "token_address": "0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/sETH",
+    "pool_symbol": "eCRV",
+    "pool_address": "0xc5424b857f758e906013f3555dad202e4bdb4567"
+  },
+  {
+    "token_symbol": "ETH",
+    "token_address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/stETH",
+    "pool_symbol": "steCRV",
+    "pool_address": "0xDC24316b9AE028F1497c275EB9192a3Ea0f67022"
+  },
+  {
+    "token_symbol": "stETH",
+    "token_address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "decimals": 18,
+    "pool_name": "Curve.fi ETH/stETH",
+    "pool_symbol": "steCRV",
+    "pool_address": "0xDC24316b9AE028F1497c275EB9192a3Ea0f67022"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi DAI/USDC/USDT/sUSD",
+    "pool_symbol": "crvPlain3andSUSD",
+    "pool_address": "0xfcba3e75865d2d561be8d220616520c171f12851"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT/sUSD",
+    "pool_symbol": "crvPlain3andSUSD",
+    "pool_address": "0xfcba3e75865d2d561be8d220616520c171f12851"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi DAI/USDC/USDT/sUSD",
+    "pool_symbol": "crvPlain3andSUSD",
+    "pool_address": "0xfcba3e75865d2d561be8d220616520c171f12851"
+  },
+  {
+    "token_symbol": "SUSD",
+    "token_address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "decimals": 18,
+    "pool_name": "Curve.fi DAI/USDC/USDT/sUSD",
+    "pool_symbol": "crvPlain3andSUSD",
+    "pool_address": "0xfcba3e75865d2d561be8d220616520c171f12851"
+  },
+  {
+    "token_symbol": "tBTC",
+    "token_address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
+    "decimals": 18,
+    "pool_name": "Curve.fi tBTC/sbtcCRV",
+    "pool_symbol": "tBTC/sbtcCRV",
+    "pool_address": "0xaa82ca713D94bBA7A89CEAB55314F9EfFEdDc78c"
+  },
+  {
+    "token_symbol": "sbtcCRV",
+    "token_address": "0x075b1bb99792c9E1041bA13afEf80C91a1e70fB3",
+    "decimals": 18,
+    "pool_name": "Curve.fi tBTC/sbtcCRV",
+    "pool_symbol": "tBTC/sbtcCRV",
+    "pool_address": "0xaa82ca713D94bBA7A89CEAB55314F9EfFEdDc78c"
+  },
+  {
+    "token_symbol": "USDK",
+    "token_address": "0x1c48f86ae57291f7686349f12601910bd8d470bb",
+    "decimals": 18,
+    "pool_name": "Curve.fi USDK/3Crv",
+    "pool_symbol": "usdk3CRV",
+    "pool_address": "0xF1f85a74AD6c64315F85af52d3d46bF715236ADc"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi USDK/3Crv",
+    "pool_symbol": "usdk3CRV",
+    "pool_address": "0xF1f85a74AD6c64315F85af52d3d46bF715236ADc"
+  },
+  {
+    "token_symbol": "USDN",
+    "token_address": "0x674C6Ad92Fd080e4004b2312b45f796a192D27a0",
+    "decimals": 18,
+    "pool_name": "Curve.fi USDN/3Crv",
+    "pool_symbol": "usdn3CRV",
+    "pool_address": "0x094d12e5b541784701FD8d65F11fc0598FBC6332"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi USDN/3Crv",
+    "pool_symbol": "usdn3CRV",
+    "pool_address": "0x094d12e5b541784701FD8d65F11fc0598FBC6332"
+  },
+  {
+    "token_symbol": "USDP",
+    "token_address": "0x1456688345527bE1f37E9e627DA0837D6f08C925",
+    "decimals": 18,
+    "pool_name": "Curve.fi USDP/3Crv",
+    "pool_symbol": "usdp3CRV",
+    "pool_address": "0x3c8cAee4E09296800f8D29A68Fa3837e2dae4940"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi USDP/3Crv",
+    "pool_symbol": "usdp3CRV",
+    "pool_address": "0x3c8cAee4E09296800f8D29A68Fa3837e2dae4940"
+  },
+  {
+    "token_symbol": "cDAI",
+    "token_address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643",
+    "decimals": 8,
+    "pool_name": "Curve.fi cDAI/cUSDC/USDT",
+    "pool_symbol": "cDAI+cUSDC+USDT",
+    "pool_address": "0xac795d2c97e60df6a99ff1c814727302fd747a80"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi cDAI/cUSDC/USDT",
+    "pool_symbol": "cDAI+cUSDC+USDT",
+    "pool_address": "0xac795d2c97e60df6a99ff1c814727302fd747a80"
+  },
+  {
+    "token_symbol": "cUSDC",
+    "token_address": "0x39aa39c021dfbae8fac545936693ac917d5e7563",
+    "decimals": 8,
+    "pool_name": "Curve.fi cDAI/cUSDC/USDT",
+    "pool_symbol": "cDAI+cUSDC+USDT",
+    "pool_address": "0xac795d2c97e60df6a99ff1c814727302fd747a80"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi cDAI/cUSDC/USDT",
+    "pool_symbol": "cDAI+cUSDC+USDT",
+    "pool_address": "0xac795d2c97e60df6a99ff1c814727302fd747a80"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi cDAI/cUSDC/USDT",
+    "pool_symbol": "cDAI+cUSDC+USDT",
+    "pool_address": "0xac795d2c97e60df6a99ff1c814727302fd747a80"
+  },
+  {
+    "token_symbol": "UST",
+    "token_address": "0xa47c8bf37f92aBed4A126BDA807A7b7498661acD",
+    "decimals": 18,
+    "pool_name": "Curve.fi UST/3Crv",
+    "pool_symbol": "ust3CRV",
+    "pool_address": "0xB0a0716841F2Fc03fbA72A891B8Bb13584F52F2d"
+  },
+  {
+    "token_symbol": "3CRV",
+    "token_address": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18,
+    "pool_name": "Curve.fi UST/3Crv",
+    "pool_symbol": "ust3CRV",
+    "pool_address": "0xB0a0716841F2Fc03fbA72A891B8Bb13584F52F2d"
+  },
+  {
+    "token_symbol": "yDAI",
+    "token_address": "0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "DAI",
+    "token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "yUSDC",
+    "token_address": "0xd6aD7a6750A7593E092a9B218d66C0A814a3436e",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "USDC",
+    "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "yUSDT",
+    "token_address": "0x83f798e925BcD4017Eb265844FDDAbb448f1707D",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "USDT",
+    "token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "decimals": 6,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "yTUSD",
+    "token_address": "0x73a052500105205d34daf004eab301916da8190f",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  },
+  {
+    "token_symbol": "TUSD",
+    "token_address": "0x0000000000085d4780b73119b644ae5ecd22b376",
+    "decimals": 18,
+    "pool_name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "pool_symbol": "yDAI+yUSDC+yUSDT+yTUSD",
+    "pool_address": "0xbbc81d23ea2c3ec7e56d39296f0cbb648873a5d3"
+  }
+]

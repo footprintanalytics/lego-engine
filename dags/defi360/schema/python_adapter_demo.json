@@ -1,0 +1,19 @@
+[
+  {
+    "description": "date",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "block",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

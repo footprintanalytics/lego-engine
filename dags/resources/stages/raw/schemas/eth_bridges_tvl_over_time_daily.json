@@ -1,0 +1,20 @@
+[
+  {
+    "description":"day",
+    "name":"day",
+    "type":"date",
+    "mode":"nullable"
+  },
+  {
+    "description":"bridge",
+    "name":"bridge",
+    "type":"string",
+    "mode":"nullable"
+  },
+  {
+    "description":"tvl_usd",
+    "name":"tvl_usd",
+    "type":"float64",
+    "mode":"nullable"
+  }
+]

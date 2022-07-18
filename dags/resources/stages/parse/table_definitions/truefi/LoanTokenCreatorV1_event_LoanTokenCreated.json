@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x4ace6de67e9a9edff5c2d0a584390fb5394119e7",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "contractAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "LoanTokenCreated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "truefi",
+        "table_name": "LoanTokenCreatorV1_event_LoanTokenCreated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "contractAddress",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

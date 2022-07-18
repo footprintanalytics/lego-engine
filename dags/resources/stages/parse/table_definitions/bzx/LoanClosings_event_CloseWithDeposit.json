@@ -1,0 +1,131 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd8ee69652e4e4838f2531732a46d1f7f584f0b7f",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "lender",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "bytes32",
+                    "name": "loanId",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "closer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "loanToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "collateralToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "repayAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "collateralWithdrawAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "collateralToLoanRate",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "currentMargin",
+                    "type": "uint256"
+                }
+            ],
+            "name": "CloseWithDeposit",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bzx",
+        "table_name": "LoanClosings_event_CloseWithDeposit",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "lender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "loanId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "closer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "loanToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "collateralToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "repayAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "collateralWithdrawAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "collateralToLoanRate",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "currentMargin",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "holder_address",
+    "name": "holder_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_address",
+    "name": "token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "balance",
+    "name": "balance",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  }
+]

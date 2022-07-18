@@ -1,0 +1,74 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "marketplace_contract_address",
+    "name": "marketplace_contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "nft_token_id",
+    "name": "nft_token_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "log_index",
+    "name": "log_index",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "value_currency",
+    "name": "value_currency",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "amount",
+    "name": "amount",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "price",
+    "name": "price",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "buyer",
+    "name": "buyer",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "seller",
+    "name": "seller",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

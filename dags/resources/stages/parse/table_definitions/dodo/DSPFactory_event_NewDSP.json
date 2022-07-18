@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x6fddb76c93299d985f4d3fc7ac468f9a168577a4",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "baseToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "quoteToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "creator",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "DSP",
+                    "type": "address"
+                }
+            ],
+            "name": "NewDSP",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dodo",
+        "table_name": "DSPFactory_event_NewDSP",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "baseToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "quoteToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "creator",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "DSP",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

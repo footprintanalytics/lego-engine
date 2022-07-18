@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x5812fcf91adc502a765e5707ebb3f36a07f63c02','0x5acd75f21659a59ffab9aebaf350351a8bfaabc0','0x1180c114f7fadcb6957670432a3cf8ef08ab5354','0x2f956b2f801c6dad74e87e7f45c94f6283bf0f45','0x298f243ad592b6027d4717fbe9decda668e3c3a8','0x24677e213dec0ea53a430404cf4a11a6dc889fce','0x47566acd7af49d2a192132314826ed3c3c5f3698','0xb3dc7425e63e1855eb41107134d471dd34d7b239','0x164315ea59169d46359baa4bcc6479bb421764b6','0xbec9a824d6da8d0f923fd9fbec4faa949d396320','0x1adc34af68e970a93062b67344269fd341979eb0','0x44c324970e5cbc5d4c3f3b7604cbc6640c2dcfbf','0x4013e6754634ca99af31b5717fa803714fa07b35','0x237c69e082a94d37ebdc92a84b58455872e425d6','0xa3068aa78611ed29d381e640bb2c02abcf3ca7de','0x039e7ef6a674f3ec1d88829b8215ed45385c24bc','0x6e6a689a5964083dff9fd7a0f788baf620ea2dbe'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "payer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "borrower",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "repayAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "accountBorrows",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "accountInterestIndex",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "totalBorrows",
+                    "type": "uint256"
+                }
+            ],
+            "name": "RepayBorrow",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dforce",
+        "table_name": "lendingPool_event_RepayBorrow",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "payer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "borrower",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "repayAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "accountBorrows",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "accountInterestIndex",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "totalBorrows",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

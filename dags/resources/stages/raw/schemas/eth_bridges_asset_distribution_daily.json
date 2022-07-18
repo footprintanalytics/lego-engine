@@ -1,0 +1,20 @@
+[
+  {
+    "description":"label",
+    "name":"label",
+    "type":"string",
+    "mode":"nullable"
+  },
+  {
+    "description":"ranking",
+    "name":"ranking",
+    "type":"int64",
+    "mode":"nullable"
+  },
+  {
+    "description":"volume_all_share",
+    "name":"volume_all_share",
+    "type":"float64",
+    "mode":"nullable"
+  }
+]

@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x944644ea989ec64c2ab9ef341d383cef586a5777",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "token",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint16",
+                    "name": "tokenId",
+                    "type": "uint16"
+                }
+            ],
+            "name": "TokenRegistered",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "loopring",
+        "table_name": "DEXBetaV1_event_TokenRegistered",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "token",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokenId",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

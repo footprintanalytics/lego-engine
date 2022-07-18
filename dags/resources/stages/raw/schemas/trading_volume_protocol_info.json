@@ -1,0 +1,26 @@
+[
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "exchange_name",
+    "name": "exchange_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,19 @@
+from datetime import datetime, timedelta
+
+from farming.${chain}.${project}.${project}_farming_${s_type} import ${project_up}Farming${s_type_up}
+from farming.${chain}.${project}.${project}_farming_${w_type} import ${project_up}Farming${w_type_up}
+from farming.${chain}.${project}.${project}_farming_${r_type} import ${project_up}Farming${r_type_up}
+
+
+${project_up}Farming${s_type_up} = ${project_up}Farming${s_type_up}()
+${project_up}Farming${w_type_up} = ${project_up}Farming${w_type_up}()
+${project_up}Farming${r_type_up} = ${project_up}Farming${r_type_up}()
+
+
+
+def airflow_steps():
+    return [
+        {'type': 'Supply', 'func': ${project_up}Farming${s_type_up}.run_daily_job},
+        {'type': 'Withdraw', 'func': ${project_up}Farming${w_type_up}.run_daily_job},
+        {'type': 'Reward', 'func': ${project_up}Farming${r_type_up}.run_daily_job},
+    ]

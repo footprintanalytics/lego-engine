@@ -1,0 +1,38 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "market_cap",
+    "name": "market_cap",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "volume",
+    "name": "volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "number_of_holders",
+    "name": "number_of_holders",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "on_date",
+    "name": "on_date",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  }
+]

@@ -1,0 +1,57 @@
+[
+   {
+    "description": "token_address",
+    "name": "token_address",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "from_address",
+    "name": "from_address",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "to_address",
+    "name": "to_address",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "value",
+    "name": "value",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+    {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+    {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_number",
+    "name": "block_number",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  },
+
+  {
+    "description": "log_index",
+    "name": "log_index",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  },
+    {
+    "description": "block_hash",
+    "name": "block_hash",
+    "type": "string",
+    "mode": "REQUIRED"
+  }
+]

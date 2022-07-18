@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "select distinct pair from `footprint-etl-internal.polygon_quickswap.UniswapV2Factory_event_PairCreated`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "sender",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount0",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount1",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "to",
+                    "type": "address"
+                }
+            ],
+            "name": "Burn",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "quickswap",
+        "table_name": "UniswapV2Pair_event_Burn",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "sender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount0",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount1",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "to",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

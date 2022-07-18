@@ -1,0 +1,61 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xc6a752948627becab5474a10821df73ff4771a49",
+        "abi": {
+            "name": "RemoveLiquidityOne",
+            "inputs": [
+                {
+                    "name": "provider",
+                    "type": "address",
+                    "indexed": true
+                },
+                {
+                    "name": "token_amount",
+                    "type": "uint256",
+                    "indexed": false
+                },
+                {
+                    "name": "coin_amount",
+                    "type": "uint256",
+                    "indexed": false
+                },
+                {
+                    "name": "token_supply",
+                    "type": "uint256",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "ellipsis",
+        "table_name": "DAI_swap_event_RemoveLiquidityOne",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "provider",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token_amount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "coin_amount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token_supply",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

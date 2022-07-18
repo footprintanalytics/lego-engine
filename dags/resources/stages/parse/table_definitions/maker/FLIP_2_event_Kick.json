@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x08c89251fc058cc97d5ba5f06f95026c0a5cf9b0','0x09656bc2c0f25380534e03921259e26fe20d19c3','0x0a1d75b4f49ba80724a214599574080cd6b68357','0x0f398a2daaa134621e4b687fccfee4ce47599cc1','0x118d5051e70f9eaf3b4a6a11f765185a2ca0802e','0x16e1b844094c885a37509a8f76c533b5fbfed13a','0x172200d12d09c2698dd918d347155fe6692f5662','0x20d298ca96bf8c2000203b911908dbdc1a8bac58','0x30bc6ebc27372e50606880a36b279240c0ba0758','0x3e115d85d4d7253b05fec9c0bb5b08383c2b0603','0x4bf9d2ebc4c57b9b783c12d30076507660b58b3a','0x4c131366246b50017f3eed0bd82fa77c77a7aa9d','0x524826f84cb3a19b6593370a5889a58c00554739','0x57b01f1b3c59e2c0bdff3ec9563b71eec99a3f2f','0x57dfd99f45747dd55c1c432db4aea07fbd5d2b5c','0x58cd24ac7322890382ee45a3e4f903a5b22ee930','0x5edf770fc81e7b8c2c89f71f30f211226a4d7495','0x667f41d0fdce1945ee0f56a79dd6c142e37fcc26','0x7fddc36dcdc435d8f54fdcb3748adcbbf70f3dac','0x830c6f87ca14fd8194f6da571b7764b85ebfdaf3','0x92645a34d07696395b6e5b8330b000d0436a9aad','0xa4341caf9f9f098ecb20fb2cee2a0b8c78a18118','0xaa745404d55f88c108a28c86abe7b5a1e7817c07','0xabbcb9ae89cdd3c27e02d279480c7ff33083249b','0xad4a0b5f3c6deb13ade106ba6e80ca6566538ee6','0xb2b9bd446ee5e58036d2876fce62b7ab7334583e','0xb79f818e3c73fca387845f892356224ca75eac4b','0xb907eedd63a30a3381e6d898e5815ee8c9fd2c85','0xd499d71be9e9e5d236a07ac562f7b6ceacca624c','0xd8a04f5412223f513dc55f839574430f5ec15531','0xe5ed7da0483e291485011d5372f3bf46235eb277','0xee4c9c36257afb8098059a4763a374a4ecfe28a7','0xf32836b9e1f47a0515c6ec431592d5ebc276407f','0xf5b8cd9db5a0ec031304a7b815010aa7761bd426','0xf70590fa4aabe12d3613f5069d02b8702e058569','0xf7c569b2b271354179aacc9ff1e42390983110ba'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "id",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "lot",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "bid",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "tab",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "usr",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "gal",
+                    "type": "address"
+                }
+            ],
+            "name": "Kick",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "maker",
+        "table_name": "FLIP_2_event_Kick",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "lot",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "bid",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tab",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "usr",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "gal",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

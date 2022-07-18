@@ -1,0 +1,56 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "standard_and_poor_500_index_usd",
+    "name": "standard_and_poor_500_index_usd",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "nasdaq_100_index_usd",
+    "name": "nasdaq_100_index_usd",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "dow_jones_industrial_average_index_usd",
+    "name": "dow_jones_industrial_average_index_usd",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "us_dollar_index_usd",
+    "name": "us_dollar_index_usd",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "gold_usd",
+    "name": "gold_usd",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "us_2_year_treasury_yield",
+    "name": "us_2_year_treasury_yield",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "us_10_year_treasury_yield",
+    "name": "us_10_year_treasury_yield",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "fear_and_greed_index",
+    "name": "fear_and_greed_index",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,92 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x6f400810b62df8e13fded51be75ff5393eaa841f",
+        "abi": {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "batchId",
+                    "type": "uint32"
+                },
+                {
+                    "name": "claimedObjectiveValue",
+                    "type": "uint256"
+                },
+                {
+                    "name": "owners",
+                    "type": "address[]"
+                },
+                {
+                    "name": "orderIds",
+                    "type": "uint16[]"
+                },
+                {
+                    "name": "buyVolumes",
+                    "type": "uint128[]"
+                },
+                {
+                    "name": "prices",
+                    "type": "uint128[]"
+                },
+                {
+                    "name": "tokenIdsForPrice",
+                    "type": "uint16[]"
+                }
+            ],
+            "name": "submitSolution",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "gnosis_protocol",
+        "table_name": "BatchExchange_call_submitSolution",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "batchId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "claimedObjectiveValue",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "owners",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "orderIds",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "buyVolumes",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "prices",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokenIdsForPrice",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

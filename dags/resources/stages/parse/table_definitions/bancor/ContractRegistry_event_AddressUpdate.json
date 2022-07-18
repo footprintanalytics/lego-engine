@@ -1,0 +1,41 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x52ae12abe5d8bd778bd5397f99ca900624cfadd4",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "_contractName",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "name": "_contractAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "AddressUpdate",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bancor",
+        "table_name": "ContractRegistry_event_AddressUpdate",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_contractName",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_contractAddress",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

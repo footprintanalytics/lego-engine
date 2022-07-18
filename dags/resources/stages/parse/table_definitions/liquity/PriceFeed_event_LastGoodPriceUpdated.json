@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x4c517d4e2c851ca76d7ec94b805269df0f2201de",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_lastGoodPrice",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LastGoodPriceUpdated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "liquity",
+        "table_name": "PriceFeed_event_LastGoodPriceUpdated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_lastGoodPrice",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

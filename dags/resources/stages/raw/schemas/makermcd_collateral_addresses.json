@@ -1,0 +1,26 @@
+[
+  {
+    "description": "address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "project",
+    "name": "project",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_address",
+    "name": "token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "details",
+    "name": "details",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

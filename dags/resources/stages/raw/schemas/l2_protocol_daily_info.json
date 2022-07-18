@@ -1,0 +1,86 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "logo",
+    "name": "logo",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "purpose",
+    "name": "purpose",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "technology",
+    "name": "technology",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "state_validation",
+    "name": "state_validation",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "data_availability",
+    "name": "data_availability",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "upgradeability",
+    "name": "upgradeability",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "sequencer_failure",
+    "name": "sequencer_failure",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "validator_failure",
+    "name": "validator_failure",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_usd",
+    "name": "total_usd",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_eth",
+    "name": "total_eth",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,122 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0xc549a5c701cb6e6cbc091007a80c089c49595468",
+        "abi": {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "nonce",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "expiry",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address",
+                    "name": "signerWallet",
+                    "type": "address"
+                },
+                {
+                    "internalType": "contract IERC20",
+                    "name": "signerToken",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "signerAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "contract IERC20",
+                    "name": "senderToken",
+                    "type": "address"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "senderAmount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint8",
+                    "name": "v",
+                    "type": "uint8"
+                },
+                {
+                    "internalType": "bytes32",
+                    "name": "r",
+                    "type": "bytes32"
+                },
+                {
+                    "internalType": "bytes32",
+                    "name": "s",
+                    "type": "bytes32"
+                }
+            ],
+            "name": "swap",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "airswap",
+        "table_name": "Light_call_swap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "nonce",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "expiry",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerWallet",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "senderToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "senderAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "v",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "r",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "s",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

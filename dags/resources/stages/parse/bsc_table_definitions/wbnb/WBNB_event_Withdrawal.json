@@ -1,0 +1,41 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "src",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "wad",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Withdrawal",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "wbnb",
+        "table_name": "WBNB_event_Withdrawal",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "src",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "wad",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

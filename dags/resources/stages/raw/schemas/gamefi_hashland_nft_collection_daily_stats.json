@@ -1,0 +1,50 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "on_date",
+    "name": "on_date",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "number_of_transactions",
+    "name": "number_of_transactions",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "number_of_mint",
+    "name": "number_of_mint",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "number_of_burnt",
+    "name": "number_of_burnt",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "number_of_new_addresses",
+    "name": "number_of_new_addresses",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "number_of_active_addresses",
+    "name": "number_of_active_addresses",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xfebd6f15df3b73dc4307b1d7e65d46413e710c27",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "liquidityProvider",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "depositDate",
+                    "type": "uint256"
+                }
+            ],
+            "name": "DepositDateUpdated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "maple",
+        "table_name": "Pool_event_DepositDateUpdated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "liquidityProvider",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "depositDate",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

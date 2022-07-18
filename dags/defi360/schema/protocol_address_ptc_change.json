@@ -1,0 +1,85 @@
+[
+
+    {
+    "description": "day",
+    "name": "day",
+    "type": "Date",
+    "mode": "REQUIRED"
+  },
+      {
+    "description": "new_users",
+    "name": "new_users",
+    "type": "float",
+    "mode": "REQUIRED"
+  },
+      {
+    "description": "unique_users",
+    "name": "unique_users",
+    "type": "float",
+    "mode": "REQUIRED"
+  },
+    {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+ {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+
+   {
+    "description": "new_users_1d_pct_change",
+    "name": "new_users_1d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "new_users_7d_pct_change",
+    "name": "new_users_7d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "new_users_30d_pct_change",
+    "name": "new_users_30d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "new_users_180d_pct_change",
+    "name": "new_users_180d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "new_users_360d_pct_change",
+    "name": "new_users_360d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "active_users_1d_pct_change",
+    "name": "active_users_1d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "active_users_7d_pct_change",
+    "name": "active_users_7d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "active_users_30d_pct_change",
+    "name": "active_users_30d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "active_users_180d_pct_change",
+    "name": "active_users_180d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  },      {
+    "description": "active_users_360d_pct_change",
+    "name": "active_users_360d_pct_change",
+    "type": "float",
+    "mode": "REQUIRED"
+  }
+]

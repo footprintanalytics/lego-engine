@@ -1,0 +1,41 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "src",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "wad",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Withdrawal",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "wmatic",
+        "table_name": "WMATIC_event_Withdrawal",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "src",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "wad",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

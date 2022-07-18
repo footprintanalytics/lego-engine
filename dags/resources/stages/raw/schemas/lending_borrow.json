@@ -1,0 +1,86 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type",
+    "name": "type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "project",
+    "name": "project",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "version",
+    "name": "version",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_number",
+    "name": "block_number",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "log_index",
+    "name": "log_index",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "borrower",
+    "name": "borrower",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "asset_symbol",
+    "name": "asset_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "asset_address",
+    "name": "asset_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_amount",
+    "name": "token_amount",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "usd_value",
+    "name": "usd_value",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]

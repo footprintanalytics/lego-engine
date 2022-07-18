@@ -1,0 +1,110 @@
+[
+    {
+        "description": "base",
+        "name": "base",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "expiry",
+        "name": "expiry",
+        "type": "DATE",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "quote",
+        "name": "quote",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "oracle",
+        "name": "oracle",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "amm",
+        "name": "amm",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "futures",
+        "name": "futures",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "name",
+        "name": "name",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "chain",
+        "name": "chain",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "block_timestamp",
+        "name": "block_timestamp",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "transaction_hash",
+        "name": "transaction_hash",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "trader",
+        "name": "trader",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "side",
+        "name": "side",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "price",
+        "name": "price",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "size",
+        "name": "size",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "contract_address",
+        "name": "contract_address",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "trading_usd_volume",
+        "name": "trading_usd_volume",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "baseSymbol",
+        "name": "baseSymbol",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+        {
+        "description": "quoteSymbol",
+        "name": "quoteSymbol",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

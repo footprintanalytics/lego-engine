@@ -1,0 +1,14 @@
+from inner_validate.validate_cls.less_than_zero_validate import LessThanZeroValidate
+from inner_validate.validate_cls.less_than_or_eq_zero_validate import LessThanOrEqZeroValidate
+from inner_validate.validate_cls.data_null_validate import DataNullValidate
+from inner_validate.validate_cls.anomaly_validate import AnomalyValidate
+from inner_validate.validate_cls.address_format_validate import AddressFormatValid
+from inner_validate.validate_cls.pool_balance_validate import PoolBalanceValidate
+
+LessThanZeroValidate = LessThanZeroValidate()
+LessThanOrEqZeroValidate = LessThanOrEqZeroValidate()
+DataNullValidate = DataNullValidate()
+AnomalyValidate = AnomalyValidate()
+AddressFormatValid = AddressFormatValid()
+PoolBalanceValidate = PoolBalanceValidate()
+

@@ -1,0 +1,56 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "slug",
+    "name": "slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "asset",
+    "name": "asset",
+    "type": "String",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "total_supply",
+    "name": "total_supply",
+    "type": "BIGNUMERIC",
+    "mode": "REQUIRED"
+  },
+    {
+    "description": "created_at",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updated_at",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

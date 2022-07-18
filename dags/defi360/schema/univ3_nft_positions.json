@@ -1,0 +1,92 @@
+[
+  {
+    "description": "tokenId",
+    "name": "tokenId",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "date",
+    "name": "date",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "nonce",
+    "name": "nonce",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "operator",
+    "name": "operator",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token0",
+    "name": "token0",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token1",
+    "name": "token1",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "fee",
+    "name": "fee",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tickLower",
+    "name": "tickLower",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tickUpper",
+    "name": "tickUpper",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "liquidity",
+    "name": "liquidity",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "feeGrowthInside0LastX128",
+    "name": "feeGrowthInside0LastX128",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "feeGrowthInside1LastX128",
+    "name": "feeGrowthInside1LastX128",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tokensOwed0",
+    "name": "tokensOwed0",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tokensOwed1",
+    "name": "tokensOwed1",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

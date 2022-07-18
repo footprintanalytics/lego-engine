@@ -1,0 +1,76 @@
+{
+  "parser": {
+    "type": "log",
+    "contract_address": "'0x6313c160b329db59086df28ed2bf172a82f0d9d1','0xbe9c32d18668b4d1cd149291d268bc5258318f0b','0xf0fe94d76fd77c1d9915616261e7e19865cedc2c','0x3b624de26a6ceba421f9857127e37a5efd8ecaab','0xbb025d470162cc5ea24daf7d4566064ee7f5f111','0x19d13b4c0574b8666e9579da3c387d5287af410c','0xc5b5e4a8df5cf3d940cfdb6a273a6e4ffcfd999f','0xf9f0effe60f56e6846505501903ad047b8011c3e','0x53ca7a9d09fd07b132963c2efd14dbd5ed0f0cae','0xe2451ae4579aedaa933148481732498533db185e','0x1531c1a63a169ac75a2daae399080745fa51de44','0x52798323de1ea735cb67ac0c73e4a32d7321cce4','0x2130528060141222f0614ff80a756a3b2a24fe59','0xc12b58d31b97dbd7f092db5cc69ad321a0ad747e','0xad1716680024f6f9aea57ad28b8c4ecd2f5670cc','0x2914e8c1c2c54e5335dc9554551438c59373e807','0x6f95d4d251053483f41c8718c30f4f3c404a8cf2','0x8e4e0257a4759559b4b1ac087fe8d80c63f20d19','0xf13c91571fb553b149f072b71b7decaf75997ba9','0x558a7a68c574d83f327e7008c63a86613ea48b4f','0x7322b10db09687fe8889ad8e87f333f95104839f','0x989273ec41274c4227bcb878c2c26fdd3afbe70d','0x82eecf1f719eed527efab332fe84b91b91b91c60','0x3e5c122ffa75a9fe16ec0c69f7e9149203ea1a5d','0x673f9cb9bea1525bd982c061125c285d79d8fbe2','0x8ad7472631695420626c17ee0f8cecfea480caff','0xca9219aef43d66e80a5167b0c3b434568b3371c9','0x6d53b483ad27907109a853fbd8abe58a59f7ad41','0xd557c7f29201e296c7b689ef42dc48c9862afb87','0x2d853a7f658839affe936fad61f583131543aa90','0x95fd9ac18d72c84d47442181828202b9ec8419c6','0xbc71f553c70badf763de43ec02c4028ebc9f6194','0xfa1057d02a0c1a4885851e3f4fd496ee7d38f56e','0xf06f65a6b7d2c401fcb8b3273d036d21fe2a5963','0x7ab45c5019f89932cfb97574e074e450144372a4','0x0d90341220fb052a3c5e79d8fb1c6f26f9c9fdc9','0x752f119bd4ee2342ce35e2351648d21962c7cafe','0xf6bd560131c1bb8591cf864cdd51817fd5657061','0x68b0dc2e448fbc9327e774df9768826f9d04b377','0xeebc9d3a8d93fb0516398a223aeffc0872e32cfd','0x0879dbee0614cc3516c464522e9b2e10eb2d415a','0x202586b4777083d51a21a13a34197200140c933e','0xeb37ce0db663a742df93e23ea7ba78016e82be39','0xfd3300a9a74b3250f1b2abc12b47611171910b07','0x0302f55dc69f5c4327c8a6c3805c9e16fc1c3464','0x185ab80a77d362447415a5b347d7cd86ecacc87c','0x5f9faed5599d86d2e6f8d982189d560c067897a0','0xe640e9bec342b86266b2bd79f3847e7958cb30c4','0x6eda4b59bac787933a4a21b65672539cef6ec97b','0x6a6a5b23b91211aa10dc2970626804591e46f613','0x94c49563a3950424a2a7790c3ef5458a2a359c7e','0xcf90552ec3db6143c83385fdd7bc96ef40f7ee44','0xf6551c22276b9bf62fad09f6bd6cad0264b89789','0xe33928b720799127a052b65498b322a206351441','0xc10d8be5c570856bec7d936d4e1e1f51308ff6d4','0x10e0953c583f9fdfcad13bdb9a81d0744e3933d4','0x3126884e24fbf5a9a3acee004a604eec5625b21f','0x8e0b2eb3ebcd55168099806cb865085f461c8cd8','0xffe8b2b9478614faa48bac160be18d62b7e9e482','0x9b9b93aa9a8b3368f94b1fe87ce56034c9cba693','0x86fc4fee7134f017336751fca3ea587fb63f8449','0xa37d6da61318d81f682fae94e6890e945209433c','0xca56af76b656212d768842246bf4893b56c02abc','0x1f9045e2bf5d7f64898f5492df8980e92cb344c7','0x7c3d310c41e68ed7d636e97055e92d526f3849c1','0x63475ab76e578ec27ae2494d29e1df288817d931','0xf317379b10d370fec6b8103ef2da5007d1890def','0x352169127e1da21ad54788b7c17d990dd1b9c940','0xd8553552f8868c1ef160eedf031cf0bcf9686945','0xdb55b77f5e8a1a41931684cf9e4881d24e6b6cc9','0x98da94790b3179c347ff0ddebfe3ef06bd3f7997','0x59bd6774c22486d9f4fab2d448dce4f892a9ae25','0x8691927a91a032c23b895130074669f52cf6b1e7','0xb51db4a1577aab01f512753f122b039b1f0171ae','0x325e3257286eb040aabb1128c21a55cf82e25901','0x00ce8e3746240b0ca44046b550c8e54e848ae5b8','0xb61946a7ea4ea0b2cc605b26afef66594e77a6df','0x29f0a2fa530bb3cae31877592873b69671cbfaff','0x49535c69e67216899b1b6ab9067f6f33fe3eea21','0x195f83eb5fbcace2290d53ad1c12d909b9328f92','0x53de5a7b03dc24ff5d25ccf7ad337a0425dfd8d1','0x7e9ce3caa9910cc048590801e64174957ed41d43','0x258592543a2d018e5bdd3bd74d422f952d4b3c1b','0xd9c1109bed723ea8b78d0ac1757586955666bb00','0xdc81a91b5b4e056db3fe9f27f8a13be303810957','0x17b1a2e012cc4c31f83b90ff11d3942857664efc','0x484d065931c19b8dc2d915b2cf23bb142c2c7637','0x2f251e9074e3a3575d0105586d53a92254528fc5'",
+    "abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "liquidator",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "borrower",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "repayAmount",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "cTokenCollateral",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "seizeTokens",
+          "type": "uint256"
+        }
+      ],
+      "name": "LiquidateBorrow",
+      "type": "event"
+    },
+    "field_mapping": {}
+  },
+  "table": {
+    "dataset_name": "raricapital",
+    "table_name": "CErc20Delegator_event_LiquidateBorrow",
+    "table_description": "",
+    "schema": [
+      {
+        "name": "liquidator",
+        "description": "",
+        "type": "STRING"
+      },
+      {
+        "name": "borrower",
+        "description": "",
+        "type": "STRING"
+      },
+      {
+        "name": "repayAmount",
+        "description": "",
+        "type": "STRING"
+      },
+      {
+        "name": "cTokenCollateral",
+        "description": "",
+        "type": "STRING"
+      },
+      {
+        "name": "seizeTokens",
+        "description": "",
+        "type": "STRING"
+      }
+    ]
+  }
+}

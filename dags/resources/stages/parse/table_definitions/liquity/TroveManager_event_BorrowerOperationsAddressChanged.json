@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xa39739ef8b0231dbfa0dcda07d7e29faabcf4bb2",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "_newBorrowerOperationsAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "BorrowerOperationsAddressChanged",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "liquity",
+        "table_name": "TroveManager_event_BorrowerOperationsAddressChanged",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_newBorrowerOperationsAddress",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

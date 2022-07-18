@@ -1,0 +1,38 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "ntf_address",
+    "name": "ntf_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "pool_address",
+    "name": "pool_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "wallet_address",
+    "name": "wallet_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_id",
+    "name": "token_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

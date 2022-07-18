@@ -1,0 +1,53 @@
+contract_address,name,desc
+0xe14d13d8b3b85af791b2aadd661cdbd5e6097db1,yvYFI,v2 YFI yVault
+0xf29ae508698bdef169b89834f76704c3b205aedf,yvSNX,v2 SNX yVault
+0x873fb544277fd7b977b196a826459a69e27ea4ea,yvRAI,v2 RAI yVault
+0x671a912c10bba0cfa74cfc2d6fba9ba1ed9530b2,yvLINK,v2 LINK yVault 📺
+0xa5ca62d95d24a4a350983d5b8ac4eb8638887396,yvsUSD,v2 sUSD yVault
+0xb8c3b7a2a618c552c23b1e4701109a9e756bab67,yv1INCH,v2 1INCH yVault
+0xa258c4606ca8206d8aa700ce2143d7db854d168c,yvWETH,v2 WETH yVault
+0x5f18c75abdae578b483e5f43f12a39cf75b973a9,yvUSDC,v2 USDC yVault
+0xda816459f1ab5631232fe5e97a05bbbb94970c95,yvDAI,v2 DAI yVault
+0xa696a63cc78dffa1a63e9e50587c197387ff6c7e,yvWBTC,v2 WBTC yVault
+0x7da96a3891add058ada2e826306d812c638d87a7,yvUSDT,v2 USDT yVault
+0xfbeb78a723b8087fd2ea7ef1afec93d35e8bed42,yvUNI,v2 UNI yVault
+0x8cc94ccd0f3841a468184aca3cc478d2148e1757,yvCurve-mUSD,v2 Curve mUSD Pool yVault
+0x3d27705c64213a5dcd9d26880c1bcfa72d5b6b0e,yvCurve-USDK,v2 Curve USDK Pool yVault
+0x80bbee2fa460da291e796b9045e93d19ef948c6a,yvCurve-Pax,v2 Curve Pax Pool yVault
+0xc116df49c02c5fd147de25baa105322ebf26bd97,yvCurve-RSV,v2 Curve RSV Pool yVault
+0x28a5b95c101df3ded0c0d9074db80c438774b6a9,yvCurve-USDT,v2 Curve USDT Pool yVault
+0x3d980e50508cfd41a13837a60149927a11c03731,yvCurve-triCrypto,v2 Curve triCrypto Pool yVault
+0x25212df29073fffa7a67399acefc2dd75a831a1a,yvCurve-EURS,v2 Curve EURS Pool yVault
+0x5a770dbd3ee6baf2802d29a901ef11501c44797a,yvCurve-sUSD,v2 Curve sUSD Pool yVault
+0x39caf13a104ff567f71fd2a4c68c026fdb6e740b,yvCurve-Aave,v2 Curve AAVE Pool yVault
+0x054af22e1519b020516d72d749221c24756385c9,yvCurve-HUSD,v2 Curve HUSD Pool yVault
+0x3b96d491f067912d18563d56858ba7d6ec67a6fa,yvCurve-USDN,v2 Curve USDN Pool yVault
+0xbfedbcbe27171c418cdabc2477042554b1904857,yvCurve-rETH,v2 Curve rETH Pool yVault
+0x132d8d2c76db3812403431facb00f3453fc42125,yvCurve-ankrETH,v2 Curve ankrETH Pool yVault
+0xf2db9a7c0acd427a680d640f02d90f6186e71725,yvCurve-LINK,v2 Curve LINK Pool yVault
+0xa74d4b67b3368e83797a35382afb776baae4f5c8,yvCurve-alUSD,v2 Curve alUSD Pool yVault
+0xc4daf3b5e2a9e93861c3fbdd25f1e943b8d87417,yvCurve-USDP,v2 Curve USDP Pool yVault
+0x1c6a9783f812b3af3abbf7de64c3cd7cc7d1af44,yvCurve-UST,v2 Curve UST Pool yVault
+0x30fcf7c6cdfc46ec237783d94fc78553e79d4e9c,yvCurve-DUSD,v2 Curve DUSD Pool yVault
+0xf8768814b88281de4f532a3beefa5b85b69b9324,yvCurve-TUSD,v2 Curve TUSD Pool yVault
+0x4b5bfd52124784745c1071dcb244c6688d2533d3,yUSD,v2 Curve Y Pool yVault
+0x84e13785b5a27879921d6f685f041421c7f482da,yvCurve-3pool,v2 Curve 3Pool yVault
+0x2a38b9b0201ca39b17b460ed2f11e4929559071e,yvCurve-GUSD,v2 Curve GUSD yVault
+0x27b7b1ad7288079a66d12350c828d3c00a6f07d7,yvCurve-IB,v2 Curve Iron Bank yVault
+0xdcd90c7f6324cfa40d7169ef80b12031770b4325,yvsteCRV,v2 Curve stETH Pool yVault
+0x8414db07a7f743debafb402070ab01a4e0d2e45e,yvCurve-sBTC,v2 Curve sBTC Pool yVault
+0x7047f90229a057c13bf847c0744d646cfb6c9e1a,yvCurve-renBTC,v2 Curve renBTC Pool yVault
+0x7da96a3891add058ada2e826306d812c638d87a7,yvCurve-oBTC,v2 Curve oBTC Pool yVault
+0x3c5df3077bcf800640b5dae8c91106575a4826e6,yvCurve-pBTC,v2 Curve pBTC Pool yVault
+0x23d3d0f1c697247d5e0a9efb37d8b0ed0c464f7f,yvCurve-tBTC,v2 Curve tBTC Pool yVault
+0xb4ada607b9d6b2c9ee07a275e9616b84ac560139,yvCurve-FRAX,v2 Curve FRAX Pool yVault
+0x5fa5b62c8af877cb37031e0a3b2f34a78e3c56a6,yvCurve-LUSD,v2 Curve LUSD Pool yVault
+0xb4d1be44bff40ad6e506edf43156577a3f8672ec,yvCurve-sAave,v2 Curve SAAVE Pool yVault
+0x8fa3a9ecd9efb07a8ce90a6eb014cf3c0e3b32ef,yvCurve-bBTC,v2 Curve bBTC Pool yVault
+0x6ede7f19df5df6ef23bd5b9cedb651580bdf56ca,yvCurve-BUSD,v2 Curve BUSD Pool yVault
+0x2994529c0652d127b7842094103715ec5299bbed,yyDAI+yUSDC+yUSDT+yBUSD,v2 Curve yBUSD Pool yVault
+0xd6ea40597be05c201845c0bfd2e96a60bacde267,yvCurve-Compound,v2 Curve Compound Pool yVault
+0x19d3364a399d251e894ac732651be8b0e4e85001,yvDAI,v2 DAI yVault📺 — v0.3.0
+0xcb550a6d4c8e3517a939bc79d0c7093eb7cf56b5,yvWBTC,v2 WBTC yVault — 0xcb550
+0xa9fe4601811213c340e850ea305481aff02f5b28,yvWETH,v2 WETH yVault — 0xa9fe4 — v0.3.2
+0xe11ba472f74869176652c35d30db89854b5ae84d,yvHEGIC,v2 HEGIC yVault

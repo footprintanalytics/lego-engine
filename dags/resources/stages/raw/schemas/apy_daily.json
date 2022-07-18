@@ -1,0 +1,38 @@
+[
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type",
+    "name": "type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "apy",
+    "name": "apy",
+    "type": "BIGNUMERIC",
+    "mode": "REQUIRED"
+  }
+]

@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x41c84c0e2ee0b740cf0d31f63f3b6f627dc6b393','0x8e595470ed749b85c6f7669de83eae304c2ec68f','0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a','0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c','0xfa3472f7319477c9bfecdd66e4b948569e7621b9','0x7736ffb07104c0c400bb0cc9a7c228452a732992','0x12a9cc33a980daa74e00cc2d1a0e74c57a93d12c','0xa7c4054afd3dbbbf5bfe80f41862b89ea05c9806','0xe7bff2da8a2f619c2586fb83938fa56ce803aa16','0x8fc8bfd80d6a9f17fb98a373023d72531792b431','0xfeeb92386a055e2ef7c2b598c872a4047a7db59f','0x226f3738238932ba0db2319a8117d9555446102f'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "redeemer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "redeemAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "redeemTokens",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Redeem",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "cream_bank",
+        "table_name": "CErc20Delegator_event_Redeem",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "redeemer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "redeemAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "redeemTokens",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

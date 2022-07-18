@@ -1,0 +1,86 @@
+[
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "trading_volume_usd",
+    "name": "trading_volume_usd",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "trading_token_volume",
+    "name": "trading_token_volume",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "trading_token_symbol",
+    "name": "trading_token_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "mint_nft_count",
+    "name": "mint_nft_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_nft_nums",
+    "name": "total_nft_nums",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "trade_count",
+    "name": "trade_count",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "unique_trader_count",
+    "name": "unique_trader_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "unique_buyers_count",
+    "name": "unique_buyers_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "unique_seller_count",
+    "name": "unique_seller_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "holder_count",
+    "name": "holder_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "market_cap",
+    "name": "market_cap",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

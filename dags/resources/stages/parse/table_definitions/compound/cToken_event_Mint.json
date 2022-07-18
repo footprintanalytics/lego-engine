@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "select contract_address from `xed-project-237404.footprint_etl.compound_view_ctokens`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "minter",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "mintAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "mintTokens",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Mint",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "compound",
+        "table_name": "cToken_event_Mint",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "minter",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "mintAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "mintTokens",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xc6a752948627becab5474a10821df73ff4771a49",
+        "abi": {
+            "name": "TokenExchange",
+            "inputs": [
+                {
+                    "name": "buyer",
+                    "type": "address",
+                    "indexed": true
+                },
+                {
+                    "name": "sold_id",
+                    "type": "int128",
+                    "indexed": false
+                },
+                {
+                    "name": "tokens_sold",
+                    "type": "uint256",
+                    "indexed": false
+                },
+                {
+                    "name": "bought_id",
+                    "type": "int128",
+                    "indexed": false
+                },
+                {
+                    "name": "tokens_bought",
+                    "type": "uint256",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "ellipsis",
+        "table_name": "DAI_swap_event_TokenExchange",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "buyer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sold_id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokens_sold",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "bought_id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokens_bought",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

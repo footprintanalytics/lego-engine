@@ -1,0 +1,116 @@
+[
+  {
+    "description": "id",
+    "name": "id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "fundraising_rounds",
+    "name": "fundraising_rounds",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "amount",
+    "name": "amount",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "investor",
+    "name": "investor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "project_slug",
+    "name": "project_slug",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "project",
+    "name": "project",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "website",
+    "name": "website",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "founder",
+    "name": "founder",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "category",
+    "name": "category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "sub_category",
+    "name": "sub_category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "round",
+    "name": "round",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "description",
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "valuation",
+    "name": "valuation",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "announcement",
+    "name": "announcement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "unique",
+    "name": "unique",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updated_at",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "created_at",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "description": "pool_id",
+    "name": "pool_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "project",
+    "name": "project",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "business_type",
+    "name": "business_type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "deposit_contract",
+    "name": "deposit_contract",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "withdraw_contract",
+    "name": "withdraw_contract",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "lp_token",
+    "name": "lp_token",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "stake_token",
+    "name": "stake_token",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "description": "stake_underlying_token",
+    "name": "stake_underlying_token",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "description": "reward_token",
+    "name": "reward_token",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "description",
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

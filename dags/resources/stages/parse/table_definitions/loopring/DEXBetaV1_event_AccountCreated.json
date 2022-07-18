@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x944644ea989ec64c2ab9ef341d383cef586a5777",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "uint24",
+                    "name": "id",
+                    "type": "uint24"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "pubKeyX",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "pubKeyY",
+                    "type": "uint256"
+                }
+            ],
+            "name": "AccountCreated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "loopring",
+        "table_name": "DEXBetaV1_event_AccountCreated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "owner",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "pubKeyX",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "pubKeyY",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

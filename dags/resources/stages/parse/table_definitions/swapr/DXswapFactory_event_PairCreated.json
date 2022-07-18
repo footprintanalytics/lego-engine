@@ -1,0 +1,60 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd34971bab6e5e356fd250715f5de0492bb070452",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "token0",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "token1",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "pair",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "PairCreated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "swapr",
+        "table_name": "DXswapFactory_event_PairCreated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "token0",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token1",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "pair",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+SELECT
+	project,
+	version,
+	protocol_id,
+	type,
+	block_number,
+	block_time,
+	tx_hash,
+	log_index,
+	contract_address,
+	borrower,
+	token_collateral_address,
+	token_collateral_amount_raw,
+	liquidator,
+	repay_token_address,
+	repay_token_amount_raw
+FROM
+	view.{{business_second_type}}
+WHERE
+	Date(block_timestamp) {match_date_filter}
+

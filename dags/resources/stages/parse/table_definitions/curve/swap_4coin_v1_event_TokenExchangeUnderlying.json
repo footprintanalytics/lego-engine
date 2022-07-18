@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x79a8c46dea5ada233abaffd40f3a0a2b1e5a4f27','0x06364f10b501e868329afbc005b3492902d6c763','0xa5407eae9ba41422680e2e00537571bcc53efbfd','0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51'",
+        "abi": {
+            "name": "TokenExchangeUnderlying",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "buyer",
+                    "indexed": true
+                },
+                {
+                    "type": "int128",
+                    "name": "sold_id",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "tokens_sold",
+                    "indexed": false
+                },
+                {
+                    "type": "int128",
+                    "name": "bought_id",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "tokens_bought",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "curve",
+        "table_name": "swap_4coin_v1_event_TokenExchangeUnderlying",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "buyer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sold_id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokens_sold",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "bought_id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokens_bought",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

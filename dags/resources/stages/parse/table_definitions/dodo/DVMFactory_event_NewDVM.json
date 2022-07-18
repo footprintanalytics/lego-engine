@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x72d220ce168c4f361dd4dee5d826a01ad8598f6c",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "baseToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "quoteToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "creator",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "dvm",
+                    "type": "address"
+                }
+            ],
+            "name": "NewDVM",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dodo",
+        "table_name": "DVMFactory_event_NewDVM",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "baseToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "quoteToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "creator",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "dvm",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

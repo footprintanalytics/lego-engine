@@ -1,0 +1,92 @@
+[
+    {
+        "description": "project",
+        "name": "project",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "liquidity_provider",
+        "name": "liquidity_provider",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "version",
+        "name": "version",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "protocol_id",
+        "name": "protocol_id",
+        "type": "NUMERIC",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "token_symbol",
+        "name": "token_symbol",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "token_amount",
+        "name": "token_amount",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "usd_value_of_token",
+        "name": "usd_value_of_token",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "token_amount_raw",
+        "name": "token_amount_raw",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "type",
+        "name": "type",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "token_address",
+        "name": "token_address",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "exchange_address",
+        "name": "exchange_address",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "tx_hash",
+        "name": "tx_hash",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "block_time",
+        "name": "block_time",
+        "type": "DATETIME",
+        "mode": "REQUIRED"
+    },
+    {
+        "description": "tx_from",
+        "name": "tx_from",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "description": "block_number",
+        "name": "block_number",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    }
+]

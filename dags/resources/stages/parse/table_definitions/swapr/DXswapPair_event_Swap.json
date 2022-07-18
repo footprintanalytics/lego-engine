@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "SELECT pair FROM `footprint-etl.ethereum_swapr.DXswapFactory_event_PairCreated`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "sender",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount0In",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount1In",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount0Out",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount1Out",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "to",
+                    "type": "address"
+                }
+            ],
+            "name": "Swap",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "swapr",
+        "table_name": "DXswapPair_event_Swap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "sender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount0In",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount1In",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount0Out",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount1Out",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "to",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

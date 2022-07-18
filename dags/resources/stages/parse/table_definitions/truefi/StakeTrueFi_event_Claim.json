@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x23696914ca9737466d8553a2d619948f548ee424",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "who",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "token",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amountClaimed",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Claim",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "truefi",
+        "table_name": "StakeTrueFi_event_Claim",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "who",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountClaimed",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

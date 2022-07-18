@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0xa991356d261fbaf194463af6df8f0464f8f1c742','0x6002b1dcb26e7b1aa797a17551c6f487923299d7','0x97ce06c3e3d027715b2d6c22e67d5096000072e5','0xa1e72267084192db7387c8cc1328fade470e4149'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "staker",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Exited",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "truefi",
+        "table_name": "LendingPools_event_Exited",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "staker",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

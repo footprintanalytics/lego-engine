@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x36f4c36d1f6e8418ecb2402f896b2a8fedde0991','0xb22ef996c0a2d262a19db2a66a256067f51511eb','0x6e42423e1bcb6a093a58e203b5eb6e8a8023b4e5','0x6ac0a0b3959c1e5fcbd09b59b09abf7c53c72346','0x45055315dfccbc91ac7107300faad7abb234e7b7','0x8633ceb128f46a6a8d5b9ecea5161e84127d3c0a','0x500f397fcee86ebee89592b38005ab331de94aff','0x82279995b210d63fba31790c5c64e3ff5e37d1e0'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "payer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "borrower",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "repayAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "accountBorrows",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "accountInterestIndex",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "totalBorrows",
+                    "type": "uint256"
+                }
+            ],
+            "name": "RepayBorrow",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dforce",
+        "table_name": "iMSD_event_RepayBorrow",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "payer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "borrower",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "repayAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "accountBorrows",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "accountInterestIndex",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "totalBorrows",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

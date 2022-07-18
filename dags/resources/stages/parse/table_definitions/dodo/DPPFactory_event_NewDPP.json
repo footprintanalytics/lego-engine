@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x6b4fa0bc61eddc928e0df9c7f01e407bfcd3e5ef",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "baseToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "quoteToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "creator",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "dpp",
+                    "type": "address"
+                }
+            ],
+            "name": "NewDPP",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dodo",
+        "table_name": "DPPFactory_event_NewDPP",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "baseToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "quoteToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "creator",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "dpp",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

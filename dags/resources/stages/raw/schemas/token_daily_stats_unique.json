@@ -1,0 +1,170 @@
+[
+  {
+    "description": "symbol",
+    "name": "symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "unique_symbol",
+    "name": "unique_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "coin_gecko_id",
+    "name": "coin_gecko_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "trading_vol_24h",
+    "name": "trading_vol_24h",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "high_price_24h",
+    "name": "high_price_24h",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "low_price_24h",
+    "name": "low_price_24h",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "circulating_supply",
+    "name": "circulating_supply",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "facebook_likes",
+    "name": "facebook_likes",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "fdv_to_tvl_ratio",
+    "name": "fdv_to_tvl_ratio",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "fully_diluted_valuation",
+    "name": "fully_diluted_valuation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "market_cap",
+    "name": "market_cap",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "market_cap_rank",
+    "name": "market_cap_rank",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "max_supply",
+    "name": "max_supply",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "mcap_to_tvl_ratio",
+    "name": "mcap_to_tvl_ratio",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "price",
+    "name": "price",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "reddit_accounts_active_48h",
+    "name": "reddit_accounts_active_48h",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "reddit_average_comments_48h",
+    "name": "reddit_average_comments_48h",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "reddit_average_posts_48h",
+    "name": "reddit_average_posts_48h",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "reddit_subscribers",
+    "name": "reddit_subscribers",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "telegram_channel_user_count",
+    "name": "telegram_channel_user_count",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_supply",
+    "name": "total_supply",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_value_locked",
+    "name": "total_value_locked",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "twitter_followers",
+    "name": "twitter_followers",
+    "type": "INT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "created_at",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updated_at",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

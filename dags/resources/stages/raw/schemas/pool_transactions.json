@@ -1,0 +1,74 @@
+[
+  {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "op_user",
+    "name": "op_user",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "gas",
+    "name": "gas",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "gas_price",
+    "name": "gas_price",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "from_address",
+    "name": "from_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "to_address",
+    "name": "to_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_address",
+    "name": "token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_symbol",
+    "name": "token_symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "operation",
+    "name": "operation",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "value",
+    "name": "value",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  }
+]

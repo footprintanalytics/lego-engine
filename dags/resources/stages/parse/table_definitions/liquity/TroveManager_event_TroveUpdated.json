@@ -1,0 +1,76 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xa39739ef8b0231dbfa0dcda07d7e29faabcf4bb2",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_borrower",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_debt",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_coll",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_stake",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "enum TroveManager.TroveManagerOperation",
+                    "name": "_operation",
+                    "type": "uint8"
+                }
+            ],
+            "name": "TroveUpdated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "liquity",
+        "table_name": "TroveManager_event_TroveUpdated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_borrower",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_debt",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_coll",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_stake",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_operation",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

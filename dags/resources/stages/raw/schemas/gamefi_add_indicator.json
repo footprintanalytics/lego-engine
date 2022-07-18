@@ -1,0 +1,37 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },{
+    "description": "social_activity",
+    "name": "social_activity",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "popularity",
+    "name": "popularity",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "social_signal",
+    "name": "social_signal",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token_holders",
+    "name": "token_holders",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

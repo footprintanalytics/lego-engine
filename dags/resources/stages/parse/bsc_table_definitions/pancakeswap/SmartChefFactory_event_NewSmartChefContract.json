@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x927158be21fe3d4da7e96931bb27fd5059a8cbc2",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "smartChef",
+                    "type": "address"
+                }
+            ],
+            "name": "NewSmartChefContract",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "pancakeswap",
+        "table_name": "SmartChefFactory_event_NewSmartChefContract",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "smartChef",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "email",
+    "name": "email",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+   {
+    "description": "ip",
+    "name": "ip",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+   {
+    "description": "code",
+    "name": "code",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

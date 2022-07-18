@@ -1,0 +1,14 @@
+[
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

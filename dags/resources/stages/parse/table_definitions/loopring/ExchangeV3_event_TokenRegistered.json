@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x0baba1ad5be3a5c0a66e7ac838a129bf948f1ea4",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "token",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint16",
+                    "name": "tokenId",
+                    "type": "uint16"
+                }
+            ],
+            "name": "TokenRegistered",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "loopring",
+        "table_name": "ExchangeV3_event_TokenRegistered",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "token",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokenId",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

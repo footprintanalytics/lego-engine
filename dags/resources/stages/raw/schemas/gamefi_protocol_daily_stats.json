@@ -1,0 +1,44 @@
+[
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "unique_users",
+    "name": "unique_users",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "new_users",
+    "name": "new_users",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_users",
+    "name": "total_users",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

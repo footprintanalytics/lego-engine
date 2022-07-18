@@ -1,0 +1,81 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0xe18b18b6f5c07fef86cf0f1c9d0de7fd94869c24','0x74bc8f15b8aec01374127d5f454b1587afb65efc','0x841a5cbbccb6d2f9da3a33e5384974a8a23f5998','0xc3a2fa47c38504ab1b1986c59d0cd02bec2104e5','0x7026dd2bb5a69f5d1257915dd7d05296a632ce78','0x1c378a82064799444b14b3b10fc5c4d5e3d38d1a','0x8e249174a15a453ac8f5ab4ad0302e1113635143','0xac621a2ed9d7efdabe4343d4f00d55bea30f6b08','0x271a2c56e55e8cd663e39a0dfcd7b6f9b4b4f5bf','0xb5938203ad693dc31e86b63930f3b19461ea125c'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "_fromToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "_toToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "_trader",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_return",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_conversionFee",
+                    "type": "int256"
+                }
+            ],
+            "name": "Conversion",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bancor",
+        "table_name": "LiquidityPoolV1Converter_event_Conversion",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_fromToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_toToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_trader",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_amount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_return",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_conversionFee",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

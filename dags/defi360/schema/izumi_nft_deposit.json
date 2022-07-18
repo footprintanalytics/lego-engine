@@ -1,0 +1,86 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_number",
+    "name": "block_number",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "log_index",
+    "name": "log_index",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "pool_address",
+    "name": "pool_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_id",
+    "name": "token_id",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "amount0",
+    "name": "amount0",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "amount1",
+    "name": "amount1",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "usd_value",
+    "name": "usd_value",
+    "type": "FLOAT64",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token0_address",
+    "name": "token0_address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token1_address",
+    "name": "token1_address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

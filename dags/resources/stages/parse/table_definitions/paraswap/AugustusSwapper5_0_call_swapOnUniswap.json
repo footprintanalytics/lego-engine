@@ -1,0 +1,62 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x1bd435f3c054b6e901b7b108a0ab7617c808677b",
+        "abi": {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "amountIn",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amountOutMin",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address[]",
+                    "name": "path",
+                    "type": "address[]"
+                },
+                {
+                    "internalType": "uint8",
+                    "name": "referrer",
+                    "type": "uint8"
+                }
+            ],
+            "name": "swapOnUniswap",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "paraswap",
+        "table_name": "AugustusSwapper5_0_call_swapOnUniswap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "amountIn",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountOutMin",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "path",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "referrer",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

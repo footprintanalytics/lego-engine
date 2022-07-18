@@ -1,0 +1,20 @@
+[
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "desc",
+    "name": "desc",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

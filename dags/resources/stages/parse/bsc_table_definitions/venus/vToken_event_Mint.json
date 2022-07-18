@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "SELECT distinct lower(pool_id) FROM `footprint-etl.bsc_lending_venus.pool_infos`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "minter",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "mintAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "mintTokens",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Mint",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "venus",
+        "table_name": "vToken_event_Mint",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "minter",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "mintAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "mintTokens",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

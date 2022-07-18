@@ -1,0 +1,81 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x5f58058c0ec971492166763c8c22632b583f667f",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "_smartToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "_fromToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "_toToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_fromAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_toAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_trader",
+                    "type": "address"
+                }
+            ],
+            "name": "Conversion",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bancor",
+        "table_name": "BancorNetwork_v8_event_Conversion",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_smartToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_fromToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_toToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_fromAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_toAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_trader",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

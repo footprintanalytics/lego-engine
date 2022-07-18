@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd18140b4b819b895a3dba5442f959fa44994af50",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_user",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bool",
+                    "name": "_relocked",
+                    "type": "bool"
+                }
+            ],
+            "name": "Withdrawn",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "convex",
+        "table_name": "Locked_CVX_event_Withdrawn",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_amount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_relocked",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

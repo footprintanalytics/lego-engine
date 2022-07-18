@@ -1,0 +1,68 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "btc_standard_and_poor_500_index_usd_correlation",
+    "name": "btc_standard_and_poor_500_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "eth_standard_and_poor_500_index_usd_correlation",
+    "name": "eth_standard_and_poor_500_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "btc_nasdaq_100_index_usd_correlation",
+    "name": "btc_nasdaq_100_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "eth_nasdaq_100_index_usd_correlation",
+    "name": "eth_nasdaq_100_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "btc_dow_jones_industrial_average_index_usd_correlation",
+    "name": "btc_dow_jones_industrial_average_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "eth_dow_jones_industrial_average_index_usd_correlation",
+    "name": "eth_dow_jones_industrial_average_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "btc_us_dollar_index_usd_correlation",
+    "name": "btc_us_dollar_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "eth_us_dollar_index_usd_correlation",
+    "name": "eth_us_dollar_index_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "btc_gold_usd_correlation",
+    "name": "btc_gold_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "eth_gold_usd_correlation",
+    "name": "eth_gold_usd_correlation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  }
+]

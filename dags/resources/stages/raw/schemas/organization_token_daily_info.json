@@ -1,0 +1,44 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_id",
+    "name": "token_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_name",
+    "name": "token_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_symbol",
+    "name": "token_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "daos_total_balance",
+    "name": "daos_total_balance",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "daos_total_usd_value",
+    "name": "daos_total_usd_value",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "num_daos",
+    "name": "num_daos",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

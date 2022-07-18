@@ -1,0 +1,104 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "version",
+    "name": "version",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "asset_address",
+    "name": "asset_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "asset_symbol",
+    "name": "asset_symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "c_token",
+    "name": "c_token",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "c_token_name",
+    "name": "c_token_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "c_token_symbol",
+    "name": "c_token_symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "supply_apr",
+    "name": "supply_apr",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "borrow_apr",
+    "name": "quote_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "supply_apy",
+    "name": "supply_apy",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "borrow_apy",
+    "name": "borrow_apy",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "stable_borrow_apr",
+    "name": "stable_borrow_apr",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "variable_borrow_apr",
+    "name": "variable_borrow_apr",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]

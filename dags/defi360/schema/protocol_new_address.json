@@ -1,0 +1,26 @@
+[
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "wallet_address",
+    "name": "wallet_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "first_day",
+    "name": "first_day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type",
+    "name": "type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

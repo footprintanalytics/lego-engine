@@ -1,0 +1,32 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "exchange_name",
+    "name": "exchange_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "trading_volume",
+    "name": "trading_volume",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  }
+]

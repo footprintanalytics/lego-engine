@@ -1,0 +1,20 @@
+[
+  {
+    "description": "address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "price",
+    "name": "price",
+    "type": "BIGNUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "minute",
+    "name": "minute",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

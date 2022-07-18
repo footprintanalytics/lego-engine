@@ -1,0 +1,62 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+   {
+    "description": "validEndDate",
+    "name": "valid_end_date",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+   {
+    "description": "validStartDate",
+    "name": "valid_start_date",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type",
+    "name": "type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "userId",
+    "name": "user_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "level",
+    "name": "level",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "metabaseId",
+    "name": "metabase_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "isExpire",
+    "name": "is_expire",
+    "type": "BOOL",
+    "mode": "REQUIRED"
+  }
+]

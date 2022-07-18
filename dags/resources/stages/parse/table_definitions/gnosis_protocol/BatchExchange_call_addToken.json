@@ -1,0 +1,33 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x6f400810b62df8e13fded51be75ff5393eaa841f",
+        "abi": {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "token",
+                    "type": "address"
+                }
+            ],
+            "name": "addToken",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "gnosis_protocol",
+        "table_name": "BatchExchange_call_addToken",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "token",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

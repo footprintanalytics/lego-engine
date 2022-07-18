@@ -1,0 +1,14 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "value",
+    "name": "value",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  }
+]

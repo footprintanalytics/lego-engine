@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x72338b82800400f5488eca2b5a37270ba3b7a111",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "srcToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "destToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "srcAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "receivedAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Swapped",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "paraswap",
+        "table_name": "AugustusSwapper_event_Swapped",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "destToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "receivedAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

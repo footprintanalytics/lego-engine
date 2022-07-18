@@ -1,0 +1,72 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        "abi": {
+            "inputs": [
+                {
+                    "internalType": "address",
+                    "name": "factory",
+                    "type": "address"
+                },
+                {
+                    "internalType": "bytes32",
+                    "name": "initCode",
+                    "type": "bytes32"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amountIn",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amountOutMin",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "address[]",
+                    "name": "path",
+                    "type": "address[]"
+                }
+            ],
+            "name": "swapOnUniswapFork",
+            "outputs": [],
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "paraswap",
+        "table_name": "AugustusSwapper6_0_call_swapOnUniswapFork",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "factory",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "initCode",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountIn",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountOutMin",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "path",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

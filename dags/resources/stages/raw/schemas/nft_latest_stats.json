@@ -1,0 +1,50 @@
+[
+    {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "nft_id",
+    "name": "nft_id",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "owner_address",
+    "name": "owner_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "owner_transfer_time",
+    "name": "owner_transfer_time",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "current_hold_time",
+    "name": "current_hold_time",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "past_owners",
+    "name": "past_owners",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "longest_hold_time",
+    "name": "longest_hold_time",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

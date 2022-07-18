@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "select * from unnest(['0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f','0xc011a72400e58ecd99ee497cf89e3775d4bd732f'])",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "account",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bytes32",
+                    "name": "fromCurrencyKey",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "fromAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bytes32",
+                    "name": "toCurrencyKey",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "toAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "toAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "SynthExchange",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "synthetix",
+        "table_name": "Synthetix_event_SynthExchange",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "account",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fromCurrencyKey",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fromAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toCurrencyKey",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toAddress",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xa80240eb5d7e05d3f250cf000eec0891d00b51cc",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "sender",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "performanceFee",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "callFee",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Harvest",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "pancakeswap",
+        "table_name": "CakeVault_event_Harvest",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "sender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "performanceFee",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "callFee",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

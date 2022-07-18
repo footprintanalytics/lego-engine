@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xa71bdadd4aabee6c5005aaabac0ddd27a6657251",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "bytes32",
+                    "name": "forgeId",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "underlyingAsset",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "expiry",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amountToRedeem",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "redeemedAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                }
+            ],
+            "name": "RedeemYieldToken",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "pendle",
+        "table_name": "PendleSushiswapComplexForge_event_RedeemYieldToken",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "forgeId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "underlyingAsset",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "expiry",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountToRedeem",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "redeemedAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x944644ea989ec64c2ab9ef341d383cef586a5777",
+        "abi": {
+            "constant": false,
+            "inputs": [
+                {
+                    "internalType": "uint8",
+                    "name": "blockType",
+                    "type": "uint8"
+                },
+                {
+                    "internalType": "uint16",
+                    "name": "blockSize",
+                    "type": "uint16"
+                },
+                {
+                    "internalType": "uint8",
+                    "name": "blockVersion",
+                    "type": "uint8"
+                },
+                {
+                    "internalType": "bytes",
+                    "name": "data",
+                    "type": "bytes"
+                },
+                {
+                    "internalType": "bytes",
+                    "name": "offchainData",
+                    "type": "bytes"
+                }
+            ],
+            "name": "commitBlock",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "loopring",
+        "table_name": "DEXBetaV1_call_commitBlock",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "blockType",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "blockSize",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "blockVersion",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "data",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "offchainData",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

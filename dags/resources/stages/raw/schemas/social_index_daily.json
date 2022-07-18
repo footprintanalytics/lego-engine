@@ -1,0 +1,134 @@
+[
+  {
+    "description": "id",
+    "name": "id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "symbol",
+    "name": "symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "galaxy_score",
+    "name": "galaxy_score",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "alt_rank",
+    "name": "alt_rank",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "correlation_rank",
+    "name": "correlation_rank",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "social_volume",
+    "name": "social_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "social_engagement",
+    "name": "social_engagement",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "social_dominance",
+    "name": "social_dominance",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "social_contributors",
+    "name": "social_contributors",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "bullish_sentiment",
+    "name": "bullish_sentiment",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "bearish_sentiment",
+    "name": "bearish_sentiment",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "shared_links",
+    "name": "shared_links",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "twitter_volume",
+    "name": "twitter_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "reddit_volume",
+    "name": "reddit_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "medium_volume",
+    "name": "medium_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "youTube_volume",
+    "name": "youTube_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "news_volume",
+    "name": "news_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "spam_volume",
+    "name": "spam_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updatedAt",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "createdAt",
+    "name": "createdAt",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

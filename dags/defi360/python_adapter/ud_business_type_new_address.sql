@@ -1,0 +1,1 @@
+select * from `gaia-data.gaia.ud_business_type_new_address`

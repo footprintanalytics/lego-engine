@@ -1,0 +1,68 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "expireTime",
+    "name": "expire_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "status",
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "email",
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "password",
+    "name": "password",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "firstName",
+    "name": "first_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "lastName",
+    "name": "last_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "channel",
+    "name": "channel",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token",
+    "name": "token",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

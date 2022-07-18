@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0xf34dff761145ff0b05e917811d488b441f33a968','0x8b55351ea358e5eda371575b031ee24f462d503e','0xd802a8351a76ed5ecd89a7502ca615f2225a585d','0x602c4cd53a715d8a7cf648540fab0d3a2d546560','0x22ee18aca7f3ee920d01f25da85840d12d98e8ca','0xe3daafc8c14147d5b4a7a56f0bfded240158e51e','0x8e299c62eed737a5d5a53539df37b5356a27b07d','0xd727a5a6d1c7b31ff9db4db4d24045b7df0cff93','0x618bd6cba676a46958c63700c04318c84a7b7c0a','0x689440f2ff927e1f24c72f1087e1faf471ece1c8','0x7a7bbf95c44b144979360c3300b54a7d34b44985','0x353e489311b21355461353fec2d02b73ef0ede7f','0xa50e9071acad20b31cd2bbe4daa816882de82bbe','0x4a2631d090e8b40bbde245e687bf09e5e534a239','0xdbfa6187c79f4fe4cda20609e75760c5aae88e52','0xedfccf611d7c40f43e77a1340ce2c29eeec27205','0x081a6672f07b615b402e7558a867c97fa080ce35','0x1992b82a8ccfc8f89785129d6403b13925d6226e','0x2d3c90aeb11d1393ca839afc9587515b1325d77a','0x61d741045ccaa5a215cf4e5e55f20e1199b4b843','0xeeece77e0bc5e59c77fc408789a9a172a504bd2f','0xd4be1911f8a0df178d6e7ff5ce39919c273e2b7b','0xcb8f69e0064d8cdd29cbeb45a14cf771d904bcd3','0x192469cade297d6b21f418cfa8c366b63ffc9f9b','0xe82c1eb4bc6f92f85bf7eb6421ab3b882c3f5a7b','0x0a760466e1b4621579a82a39cb56dda2f4e70f03','0xf86ae6790654b70727dbe58bf1a863b270317fd0','0x8798b81b0261934aa850c8de8622472bfdc143f4','0x24dffd1949f888f91a0c8341fc98a3f280a782a8','0x3e03fff82f77073cc590b656d42fceb12e4910a8','0x9700152175dc22e7d1f3245fe3c1d2cfa3602548','0x308b48f037aaa75406426dacfaca864ebd88edba','0xb900ef131301b307db5efcbed9dbb50a3e209b2e','0x2ad92a7ae036a038ff02b96c88de868ddf3f8190','0xbd223812d360c9587921292d0644d18adb6a2ad0','0x61db6c2321f784c8fab8d5ef80f58f27c831dcc8','0x02e2151d4f351881017abdf2dd2b51150841d5b3','0x5edced358e6c0b435d53cc30fbe6f5f0833f404f','0x9d5c5e364d81dab193b72db9e9be9d8ee669b652','0xd814bfc091111e1417a669672144affaa081c3ce','0xfd5abf66b003881b88567eb9ed9c651f14dc4771','0x0392321e86f42c2f94fbb0c6853052487db521f0','0xba8fe590498ed24d330bb925e69913b1ac35a81e','0x51a16da36c79e28dd3c8c0c19214d8af413984aa','0xb1fae59f23cace4949ae734e63e42168adb0ccb3','0xcd0559adb6faa2fc83ab21cf4497c3b9b45bb29f','0xa5a5905efc55b05059ee247d5cac6dd6791cfc33','0x8f18c0af0d7d511e8bdc6b3c64926b04edfe4892','0xc3628b8faade10aceae88c9b982ce0aac9bbaad3','0x48bc302d8295fea1f8c3e7f57d4ddc9981fee410','0x7cda2a83d29d7fc2ccb8f7716b5c1c34781aeb12','0xa689c00f3fd87dd3871c79c73343cd9f7957377e','0xc62de533ea77d46f3172516ab6b1000daf577e89','0x4f2b8a15d0dd58c1eb60bd53e966872828519cee','0xb0c1b7b83baae51284b8bbba02ec37742440199d','0xd2b756af4e345a8657c0656c148adcd3000c97a4','0x7d536a737c13561e0d2decf1152a653b4e615158','0x500e169c15961de8798edb52e0f88a8662d30ec5','0x329cb014b562d5d42927cff0dedf4c13ab0442ef','0x7e2b9b5244bcfa5108a76d5e7b507cfd5581ad4a','0x4a9b7edd67f58654a2c33b587f98c5709ac7d482','0x085a2054c51ea5c91dbf7f90d65e728c0f2a270f','0x835f69e58087e5b6bffef182fe2bf959fe253c3c','0x29b91c6cec4f43afdb6f6d71faf1c03d6b712f55'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "reward",
+                    "type": "uint256"
+                }
+            ],
+            "name": "RewardPaid",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "convex",
+        "table_name": "Curve_Pools_Rewards_event_RewardPaid",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "reward",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

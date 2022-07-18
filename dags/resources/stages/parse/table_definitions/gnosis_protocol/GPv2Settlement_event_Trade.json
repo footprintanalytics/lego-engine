@@ -1,0 +1,98 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "contract IERC20",
+                    "name": "sellToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "contract IERC20",
+                    "name": "buyToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "sellAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "buyAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "feeAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bytes",
+                    "name": "orderUid",
+                    "type": "bytes"
+                }
+            ],
+            "name": "Trade",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "gnosis_protocol",
+        "table_name": "GPv2Settlement_event_Trade",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "owner",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sellToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "buyToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sellAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "buyAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "feeAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "orderUid",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

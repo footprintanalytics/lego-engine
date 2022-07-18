@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "select contractAddress from `footprint-etl.ethereum_truefi.LoanTokenCreatorV1_event_LoanTokenCreated`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "receiver",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "burnedAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "redeemedAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Redeemed",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "truefi",
+        "table_name": "LoanToken1_event_Redeemed",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "receiver",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "burnedAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "redeemedAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

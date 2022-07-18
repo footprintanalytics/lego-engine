@@ -1,0 +1,76 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xa356867fdcea8e71aeaf87805808803806231fdc",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "fromToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "toToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "sender",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "fromAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "returnAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "OrderHistory",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dodo",
+        "table_name": "DODOV2Proxy02_event_OrderHistory",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "fromToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fromAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "returnAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

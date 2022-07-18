@@ -1,0 +1,86 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x0baba1ad5be3a5c0a66e7ac838a129bf948f1ea4",
+        "abi": {
+            "inputs": [
+                {
+                    "components": [
+                        {
+                            "internalType": "uint8",
+                            "name": "blockType",
+                            "type": "uint8"
+                        },
+                        {
+                            "internalType": "uint16",
+                            "name": "blockSize",
+                            "type": "uint16"
+                        },
+                        {
+                            "internalType": "uint8",
+                            "name": "blockVersion",
+                            "type": "uint8"
+                        },
+                        {
+                            "internalType": "bytes",
+                            "name": "data",
+                            "type": "bytes"
+                        },
+                        {
+                            "internalType": "uint256[8]",
+                            "name": "proof",
+                            "type": "uint256[8]"
+                        },
+                        {
+                            "internalType": "bool",
+                            "name": "storeBlockInfoOnchain",
+                            "type": "bool"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "internalType": "uint256",
+                                    "name": "txIndex",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "bytes",
+                                    "name": "data",
+                                    "type": "bytes"
+                                }
+                            ],
+                            "internalType": "struct ExchangeData.AuxiliaryData[]",
+                            "name": "auxiliaryData",
+                            "type": "tuple[]"
+                        },
+                        {
+                            "internalType": "bytes",
+                            "name": "offchainData",
+                            "type": "bytes"
+                        }
+                    ],
+                    "internalType": "struct ExchangeData.Block[]",
+                    "name": "blocks",
+                    "type": "tuple[]"
+                }
+            ],
+            "name": "submitBlocks",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "loopring",
+        "table_name": "ExchangeV3_call_submitBlocks",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "blocks",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

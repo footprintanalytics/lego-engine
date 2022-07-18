@@ -1,0 +1,32 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "nft_address",
+    "name": "nft_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_id",
+    "name": "token_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "wallet_address",
+    "name": "wallet_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

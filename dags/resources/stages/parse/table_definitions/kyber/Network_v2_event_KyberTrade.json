@@ -1,0 +1,148 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x7c66550c9c730b6fdd4c03bc2e73c5462c5f7acc",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "contract IERC20",
+                    "name": "src",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "contract IERC20",
+                    "name": "dest",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "ethWeiValue",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "networkFeeWei",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "customPlatformFeeWei",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bytes32[]",
+                    "name": "t2eIds",
+                    "type": "bytes32[]"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bytes32[]",
+                    "name": "e2tIds",
+                    "type": "bytes32[]"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256[]",
+                    "name": "t2eSrcAmounts",
+                    "type": "uint256[]"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256[]",
+                    "name": "e2tSrcAmounts",
+                    "type": "uint256[]"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256[]",
+                    "name": "t2eRates",
+                    "type": "uint256[]"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256[]",
+                    "name": "e2tRates",
+                    "type": "uint256[]"
+                }
+            ],
+            "name": "KyberTrade",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "kyber",
+        "table_name": "Network_v2_event_KyberTrade",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "src",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "dest",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "ethWeiValue",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "networkFeeWei",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "customPlatformFeeWei",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "t2eIds",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "e2tIds",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "t2eSrcAmounts",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "e2tSrcAmounts",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "t2eRates",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "mode": "REPEATED",
+                "name": "e2tRates",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

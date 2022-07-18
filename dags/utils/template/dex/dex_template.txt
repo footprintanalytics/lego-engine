@@ -1,0 +1,33 @@
+from common.common_dex_model import DexModel
+
+
+class ${project_capitalize}Dex(DexModel):
+    project_name = '${chain}_dex_${project}'
+    task_name = '${project}_dex'
+    execution_time = '5 3 * * *'
+    history_date = ${date}
+    source_add_liquidity_sql_file = 'dex/${chain}/${project}/${project}_add_liquidity.sql'
+    source_remove_liquidity_sql_file = 'dex/${chain}/${project}/${project}_remove_liquidity.sql'
+    source_swap_sql_file = 'dex/${chain}/${project}/swap.sql'
+
+
+
+if __name__ == '__main__':
+    pool = ${project_capitalize}Dex()
+    # swap
+    business = pool.get_business_type(pool.business_type['swap'])
+    # add_liquidity
+    # business = pool.get_business_type(pool.business_type['add_liquidity'])
+    # remove_liquidity
+    # business = pool.get_business_type(pool.business_type['remove_liquidity'])
+
+    # daily data
+    # daily_sql = business.build_daily_data_sql()
+    # history data
+    # daily_sql = business.build_history_data_sql()
+
+    file1 = open('daily_sql.sql', 'w')
+    file1.write(daily_sql)
+
+    business.run_daily_job()
+    # business.parse_history_data()

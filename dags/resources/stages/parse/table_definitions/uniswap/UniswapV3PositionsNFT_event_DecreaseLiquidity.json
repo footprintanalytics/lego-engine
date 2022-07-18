@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "tokenId",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint128",
+                    "name": "liquidity",
+                    "type": "uint128"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount0",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount1",
+                    "type": "uint256"
+                }
+            ],
+            "name": "DecreaseLiquidity",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "uniswap",
+        "table_name": "UniswapV3PositionsNFT_event_DecreaseLiquidity",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "tokenId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "liquidity",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount0",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount1",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

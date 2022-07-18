@@ -1,0 +1,26 @@
+[
+  {
+    "description": "address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "price",
+    "name": "price",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "timestamp",
+    "name": "timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

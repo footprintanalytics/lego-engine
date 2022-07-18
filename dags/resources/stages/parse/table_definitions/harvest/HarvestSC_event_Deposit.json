@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "SELECT distinct smartContractAddress FROM `footprint-etl.ethereum_harvest.NoMintRewardPool_event_SmartContractRecorded` ",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "origin",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amountToken",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amountfToken",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Deposit",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "harvest",
+        "table_name": "HarvestSC_event_Deposit",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "origin",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountfToken",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

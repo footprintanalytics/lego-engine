@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x1f6021de57891107f92d46660fb2a2cb946d2bb7",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "account",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "ammount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "accountBorrow",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Borrow",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "qubit",
+        "table_name": "QToken_qCAKE_event_Borrow",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "account",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "ammount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "accountBorrow",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

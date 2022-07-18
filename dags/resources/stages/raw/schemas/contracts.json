@@ -1,0 +1,20 @@
+[
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type",
+    "name": "type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

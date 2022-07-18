@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x80466c64868e1ab14a1ddf27a676c3fcbe638fe5','0xd51a44d3fae010294c616388b506acda1bfaae46'",
+        "abi": {
+            "name": "TokenExchange",
+            "inputs": [
+                {
+                    "name": "buyer",
+                    "type": "address",
+                    "indexed": true
+                },
+                {
+                    "name": "sold_id",
+                    "type": "uint256",
+                    "indexed": false
+                },
+                {
+                    "name": "tokens_sold",
+                    "type": "uint256",
+                    "indexed": false
+                },
+                {
+                    "name": "bought_id",
+                    "type": "uint256",
+                    "indexed": false
+                },
+                {
+                    "name": "tokens_bought",
+                    "type": "uint256",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "curve",
+        "table_name": "swap_3coin_v2_event_TokenExchange",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "buyer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sold_id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokens_sold",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "bought_id",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokens_bought",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

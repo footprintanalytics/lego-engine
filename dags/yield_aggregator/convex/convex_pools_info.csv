@@ -1,0 +1,47 @@
+address,name,description
+0xf403c135812408bfbe8713b5a23a04b3d48aae31,Convex,Convex staking pool
+0x5f465e9fcffc217c5849906216581a657cd60605,cvxCRV/CRV,cvxCRV/CRV & CVX/ETH
+0xcf50b810e57ac33b91dcf525c6ddd9881b139332,CVX,CVX
+0x8014595f2ab54cd7c604b00e9fb932176fdc86ae,CRV,CRV
+0x3fe65692bfcd0e6cf84cb1e7d24108e434a7587e,CRV,CRV
+0xf34dff761145ff0b05e917811d488b441f33a968,Compound,Curve.fi cDAI/cUSDC
+0x8b55351ea358e5eda371575b031ee24f462d503e,USDT,Curve.fi cDAI/cUSDC/USDT
+0xd802a8351a76ed5ecd89a7502ca615f2225a585d,Y,Curve.fi yDAI/yUSDC/yUSDT/yTUSD
+0x602c4cd53a715d8a7cf648540fab0d3a2d546560,BUSD,Curve.fi yDAI/yUSDC/yUSDT/yBUSD
+0x22ee18aca7f3ee920d01f25da85840d12d98e8ca,sUSD,Curve.fi DAI/USDC/USDT/sUSD
+0xe3daafc8c14147d5b4a7a56f0bfded240158e51e,PAX,Curve.fi DAI/USDC/USDT/PAX
+0x8e299c62eed737a5d5a53539df37b5356a27b07d,ren,Curve.fi renBTC/wBTC
+0xd727a5a6d1c7b31ff9db4db4d24045b7df0cff93,sbtc,Curve.fi renBTC/wBTC/sBTC
+0x618bd6cba676a46958c63700c04318c84a7b7c0a,hbtc,Curve.fi hBTC/wBTC
+0x689440f2ff927e1f24c72f1087e1faf471ece1c8,3pool,Curve.fi DAI/USDC/USDT
+0x7a7bbf95c44b144979360c3300b54a7d34b44985,gusd,Curve.fi GUSD/3Crv
+0x353e489311b21355461353fec2d02b73ef0ede7f,husd,Curve.fi HUSD/3Crv
+0xa50e9071acad20b31cd2bbe4daa816882de82bbe,usdk,Curve.fi USDK/3Crv
+0x4a2631d090e8b40bbde245e687bf09e5e534a239,usdn,Curve.fi USDN/3Crv
+0xdbfa6187c79f4fe4cda20609e75760c5aae88e52,musd,Curve.fi MUSD/3Crv
+0xedfccf611d7c40f43e77a1340ce2c29eeec27205,rsv,Curve.fi RSV/3Crv
+0x081a6672f07b615b402e7558a867c97fa080ce35,tbtc,Curve.fi tBTC/sbtcCrv
+0x1992b82a8ccfc8f89785129d6403b13925d6226e,dusd,Curve.fi DUSD/3Crv
+0x2d3c90aeb11d1393ca839afc9587515b1325d77a,pbtc,Curve.fi pBTC/sbtcCRV
+0x61d741045ccaa5a215cf4e5e55f20e1199b4b843,bbtc,Curve.fi bBTC/sbtcCRV
+0xeeece77e0bc5e59c77fc408789a9a172a504bd2f,obtc,Curve.fi oBTC/sbtcCRV
+0xd4be1911f8a0df178d6e7ff5ce39919c273e2b7b,ust,Curve.fi UST/3Crv
+0xcb8f69e0064d8cdd29cbeb45a14cf771d904bcd3,eurs,Curve.fi EURS/sEUR
+0x192469cade297d6b21f418cfa8c366b63ffc9f9b,seth,Curve.fi ETH/sETH
+0xe82c1eb4bc6f92f85bf7eb6421ab3b882c3f5a7b,aave,Curve.fi aDAI/aUSDC/aUSDT
+0x0a760466e1b4621579a82a39cb56dda2f4e70f03,steth,Curve.fi ETH/stETH
+0xf86ae6790654b70727dbe58bf1a863b270317fd0,saave,Curve.fi aDAI/aSUSD
+0x8798b81b0261934aa850c8de8622472bfdc143f4,ankreth,Curve.fi ETH/aETH
+0x24dffd1949f888f91a0c8341fc98a3f280a782a8,usdp,Curve.fi USDP/3Crv
+0x3e03fff82f77073cc590b656d42fceb12e4910a8,ironbank,Curve.fi cyDAI/cyUSDC/cyUSDT
+0x9700152175dc22e7d1f3245fe3c1d2cfa3602548,link,Curve.fi LINK/sLINK
+0x308b48f037aaa75406426dacfaca864ebd88edba,tusd,Curve.fi Factory USD Metapool: TrueUSD
+0xb900ef131301b307db5efcbed9dbb50a3e209b2e,frax,Curve.fi Factory USD Metapool: Frax
+0x2ad92a7ae036a038ff02b96c88de868ddf3f8190,lusd,Curve.fi Factory USD Metapool: Liquity
+0xbd223812d360c9587921292d0644d18adb6a2ad0,busdv2,Curve.fi Factory USD Metapool: Binance USD
+0x61db6c2321f784c8fab8d5ef80f58f27c831dcc8,reth,Curve.fi ETH/rETH
+0x02e2151d4f351881017abdf2dd2b51150841d5b3,alusd,Curve.fi Factory USD Metapool: Alchemix USD
+0xfd5abf66b003881b88567eb9ed9c651f14dc4771,mim,Token Curve.fi Factory USD Metapool: Magic Internet Money 3Pool
+0x5edced358e6c0b435d53cc30fbe6f5f0833f404f,tricrypto,Curve.fi USD-BTC-ETH
+0x9d5c5e364d81dab193b72db9e9be9d8ee669b652,tricrypto2,Curve.fi USD-BTC-ETH
+0xd814bfc091111e1417a669672144affaa081c3ce,eurt2,Curve.fi Factory Plain Pool: Euro Tether

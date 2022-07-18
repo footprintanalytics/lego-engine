@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x3a97247df274a17c59a3bd12735ea3fcdfb49950",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "newBorn",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "baseToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "quoteToken",
+                    "type": "address"
+                }
+            ],
+            "name": "DODOBirth",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dodo",
+        "table_name": "DODOZoo_event_DODOBirth",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "newBorn",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "baseToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "quoteToken",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+from {{business_type}}.{{chain}}.{{business_type}}_model import {{business_type_upper}}Model
+
+
+class {{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}}({{business_type_upper}}Model):
+    history_date = {{date}}
+    project_name = '{{project_upper}}'
+    task_name = '{{project}}_{{business_type}}_{{business_second_type.type}}'
+    execution_time = '5 3 * * *'
+    source_event_sql_file = '{{business_type}}/{{chain}}/{{project}}/{{project}}_{{business_type}}_{{business_second_type.type}}.sql'
+    dataset_name_prefix = '{{project}}'
+
+
+if __name__ == '__main__':
+    pool = {{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}}()
+
+    # 同项目目录生成完整sql
+    daily_sql = pool.build_daily_data_sql()
+    file1 = open('daily_sql_{{business_second_type.type}}.sql', 'w')
+    file1.write(daily_sql)
+
+    # 跑一天的数据
+    # pool.run_daily_job()
+
+    # 跑历史数据
+    # pool.parse_history_data()
+
+    # 合历史和日增表为总的视图
+    # pool.create_all_data_view()

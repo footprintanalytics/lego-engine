@@ -1,0 +1,26 @@
+[
+  {
+    "description": "symbol",
+    "name": "symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "decimals",
+    "name": "decimals",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "underlying_token_address",
+    "name": "underlying_token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

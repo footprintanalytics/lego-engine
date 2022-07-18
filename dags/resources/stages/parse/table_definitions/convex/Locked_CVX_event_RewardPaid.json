@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd18140b4b819b895a3dba5442f959fa44994af50",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_rewardsToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_reward",
+                    "type": "uint256"
+                }
+            ],
+            "name": "RewardPaid",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "convex",
+        "table_name": "Locked_CVX_event_RewardPaid",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_rewardsToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_reward",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

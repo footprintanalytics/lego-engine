@@ -1,0 +1,104 @@
+[
+  {
+    "description": "project",
+    "name": "project",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "version",
+    "name": "version",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_number",
+    "name": "block_number",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_time",
+    "name": "block_time",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tx_hash",
+    "name": "tx_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "log_index",
+    "name": "log_index",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "operator",
+    "name": "operator",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+   {
+    "description": "positionId",
+    "name": "positionId",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_symbol",
+    "name": "token_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token_address",
+    "name": "token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_amount",
+    "name": "token_amount",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token_amount_raw",
+    "name": "token_amount_raw",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "pool_id",
+    "name": "pool_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

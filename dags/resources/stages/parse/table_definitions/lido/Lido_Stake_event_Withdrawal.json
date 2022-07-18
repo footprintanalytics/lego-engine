@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "sender",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "tokenAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "sentFromBuffer",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "name": "pubkeyHash",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "name": "etherAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Withdrawal",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "lido",
+        "table_name": "Lido_Stake_event_Withdrawal",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "sender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokenAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "sentFromBuffer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "pubkeyHash",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "etherAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

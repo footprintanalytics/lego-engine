@@ -1,0 +1,16 @@
+{% for business_second_type in business_second_types %}from {{business_type}}.{{chain}}.{{project}}.{{project}}_{{business_type}}_{{business_second_type.type}} import {{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}}
+{% endfor %}
+
+{% for business_second_type in business_second_types %}{{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}} = {{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}}()
+{% endfor %}
+
+{{project}}_business_list=[
+{% for business_second_type in business_second_types %}    {{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}},
+{% endfor %}
+]
+
+def airflow_steps():
+	return [
+{% for business_second_type in business_second_types %}		{'type': '{{business_second_type.type_upper}}', 'func': {{project_upper}}{{business_type_upper}}{{business_second_type.type_upper}}.run_daily_job},
+{% endfor %}
+    ]

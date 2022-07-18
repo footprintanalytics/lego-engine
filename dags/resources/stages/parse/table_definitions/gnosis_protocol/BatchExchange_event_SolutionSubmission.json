@@ -1,0 +1,91 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x6f400810b62df8e13fded51be75ff5393eaa841f",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "submitter",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "utility",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "disregardedUtility",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "burntFees",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "lastAuctionBurntFees",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "prices",
+                    "type": "uint128[]"
+                },
+                {
+                    "indexed": false,
+                    "name": "tokenIdsForPrice",
+                    "type": "uint16[]"
+                }
+            ],
+            "name": "SolutionSubmission",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "gnosis_protocol",
+        "table_name": "BatchExchange_event_SolutionSubmission",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "submitter",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "utility",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "disregardedUtility",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "burntFees",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "lastAuctionBurntFees",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "prices",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "tokenIdsForPrice",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

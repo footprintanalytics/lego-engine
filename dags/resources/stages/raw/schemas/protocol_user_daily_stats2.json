@@ -1,0 +1,50 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "debank_protocol_id",
+    "name": "debank_protocol_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "logo_url",
+    "name": "logo_url",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tag_ids",
+    "name": "tag_ids",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "description": "active_user_count_24h",
+    "name": "active_user_count_24h",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_user_count",
+    "name": "total_user_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

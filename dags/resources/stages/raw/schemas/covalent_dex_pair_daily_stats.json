@@ -1,0 +1,80 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "slug",
+    "name": "slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_0",
+    "name": "token_0",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_0_symbol",
+    "name": "token_0_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token_1",
+    "name": "token_1",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_1_symbol",
+    "name": "token_1_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "fee_24h_quote",
+    "name": "fee_24h_quote",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_liquidity",
+    "name": "total_liquidity",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "annualized_fee",
+    "name": "annualized_fee",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "quote_rate",
+    "name": "quote_rate",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]

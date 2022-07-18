@@ -1,0 +1,56 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "status",
+    "name": "status",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type",
+    "name": "type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "category",
+    "name": "category",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "detail",
+    "name": "detail",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "discount",
+    "name": "discount",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  }
+]

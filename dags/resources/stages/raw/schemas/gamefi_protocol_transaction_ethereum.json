@@ -1,0 +1,62 @@
+[
+  {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "wallet_address",
+    "name": "wallet_address",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "method_id",
+    "name": "method_id",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tx_hash",
+    "name": "tx_hash",
+    "type": "string",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "value",
+    "name": "value",
+    "type": "FLOAT64",
+    "mode": "REQUIRED"
+  }
+]

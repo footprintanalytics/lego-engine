@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x2e9c6dcdca22a5952a88c4b18edb5b54c5155bc9",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "inAsset",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "outAsset",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "recipient",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "inAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "outAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "bytes",
+                    "name": "auxiliaryData",
+                    "type": "bytes"
+                }
+            ],
+            "name": "Swapped",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "clipper",
+        "table_name": "ClipperExchangeInterface_event_Swapped",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "inAsset",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "outAsset",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "recipient",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "inAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "outAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "auxiliaryData",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

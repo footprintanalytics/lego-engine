@@ -1,0 +1,44 @@
+[
+  {
+    "description": "id",
+    "name": "id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "symbol",
+    "name": "symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "categories",
+    "name": "categories",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updatedAt",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "createdAt",
+    "name": "createdAt",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

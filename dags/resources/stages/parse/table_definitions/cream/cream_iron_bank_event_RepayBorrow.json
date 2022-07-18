@@ -1,0 +1,76 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x41c84c0e2ee0b740cf0d31f63f3b6f627dc6b393','0x8e595470ed749b85c6f7669de83eae304c2ec68f','0x7589c9e17bcfce1ccaa1f921196fda177f0207fc','0xe7bff2da8a2f619c2586fb83938fa56ce803aa16','0xfa3472f7319477c9bfecdd66e4b948569e7621b9','0x12a9cc33a980daa74e00cc2d1a0e74c57a93d12c','0x8fc8bfd80d6a9f17fb98a373023d72531792b431','0x48759f220ed983db51fa7a8c0d2aab8f3ce4166a','0x76eb2fe28b36b3ee97f3adae0c69606eedb2a37c','0xbe86e8918dfc7d3cb10d295fc220f941a1470c5c','0x297d4da727fbc629252845e96538fc46167e453a','0xa8caea564811af0e92b1e044f3edd18fa9a73e4f','0xca55f9c4e77f7b8524178583b0f7c798de17fd54','0x7736ffb07104c0c400bb0cc9a7c228452a732992','0x09bdcce2593f0bef0991188c25fb744897b6572d','0x9d029cd7cedcb194e2c361948f279f1788135bb2','0x4f12c9dabb5319a252463e6028ca833f1164d045','0xbb4b067cc612494914a902217cb6078ab4728e36','0x950027632fbd6adadfe82644bfb64647642b6c09','0xa7c4054afd3dbbbf5bfe80f41862b89ea05c9806','0x1b3e95e8ecf7a7cab6c4de1b344f94865abd12d5','0xfeeb92386a055e2ef7c2b598c872a4047a7db59f','0x226f3738238932ba0db2319a8117d9555446102f','0x30190a3b52b5ab1daf70d46d72536f5171f22340','0x00e5c0774a5f065c285068170b20393925c84bf3','0xb8c5af54bbdcc61453144cf472a9276ae36109f9','0x3c9f5385c288ce438ed55620938a4b967c080101','0x215f34af6557a6598dbda9aa11cc556f5ae264b1','0x86bbd9ac8b9b44c95ffc6baae58e25033b7548aa','0xecab2c76f1a8359a06fab5fa0ceea51280a97ecf','0x9e8e207083ffd5bdc3d99a1f32d1e6250869c1a9','0x672473908587b10e65dab177dbaeadcbb30bf40b'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "payer",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "borrower",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "repayAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "accountBorrows",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "totalBorrows",
+                    "type": "uint256"
+                }
+            ],
+            "name": "RepayBorrow",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "cream",
+        "table_name": "cream_iron_bank_event_RepayBorrow",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "payer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "borrower",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "repayAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "accountBorrows",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "totalBorrows",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

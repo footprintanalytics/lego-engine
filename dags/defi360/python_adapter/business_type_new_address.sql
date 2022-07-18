@@ -1,0 +1,1 @@
+select * from `gaia-dao.gaia_dao.business_type_new_address`

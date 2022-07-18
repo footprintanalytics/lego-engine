@@ -1,0 +1,142 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd8ee69652e4e4838f2531732a46d1f7f584f0b7f",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "lender",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "bytes32",
+                    "name": "loanId",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "loanToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "collateralToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "newPrincipal",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "newCollateral",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "interestRate",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "interestDuration",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "collateralToLoanRate",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "currentMargin",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Borrow",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bzx",
+        "table_name": "LoanOpenings_event_Borrow",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "lender",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "loanId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "loanToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "collateralToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "newPrincipal",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "newCollateral",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "interestRate",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "interestDuration",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "collateralToLoanRate",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "currentMargin",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

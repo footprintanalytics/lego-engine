@@ -1,0 +1,68 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "nft_token_id",
+    "name": "nft_token_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "from_address",
+    "name": "from_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "to_address",
+    "name": "to_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "amount",
+    "name": "amount",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "value_currency",
+    "name": "value_currency",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "value",
+    "name": "value",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "log_index",
+    "name": "log_index",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

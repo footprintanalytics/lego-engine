@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x5511b64ae77452c7130670c79298dec978204a47','0xaf9c10b341f55465e8785f0f81dbb52a9bfe005d','0x0bf8c72d618b5d46b055165e21d661400008fa0f','0xad5ec11426970c32da48f58c92b1039bc50e5492','0xec3fd540a2dee6f479be539d64da593a59e12d08','0xc35acaeedb814f42b2214378d8950f8555b2d670','0x0b66a250dadf3237ddb38d485082a7bfe400356e','0x390bf37355e9df6ea2e16eed5686886da6f47669','0xee9099c1318cf960651b3196747640eb84b8806b','0x55012ad2f0a50195aef44f403536df2465009ef7','0x9ab060ba568b86848bf19577226184db6192725b','0xd739a569ec254d6a20ecf029f024816be58fb810','0xfc5bb1e8c29b100ef8f12773f972477bcab68862','0xd57e1425837567f74a35d07669b23bfb67aa4a93','0x7b933e1c1f44be9fb111d87501baada7c8518abe','0x983a727aa3491ab251780a13acb5e876d3f2b1d8','0x219b850993ade4f44e24e6cac403a9a40f1d3d2e','0xf649e651afe5f05ae5ba493fa34f44dfeadfe05d','0x6d64effe3af8697336fc57efd5a7517ad526dd6d','0xd957bea67aadb8a72061ce94d033c631d1c1e6ac','0x50e894894809f642de1e11b4076451734c963087','0xefae8f7af4bada590d4e707d900258fc72194d73','0x9747e26c5ad01d3594ea49ccf00790f564193c15','0x8be8cd81737b282c909f1911f3f0ade630c335aa','0x911f90e98d5c5c3a3b0c6c37bf6ea46d15ea6466','0x8af4f25019e00c64b5c9d4a49d71464d411c2199'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "recipient",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "redeemiTokenAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "redeemUnderlyingAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Redeem",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dforce",
+        "table_name": "iToken_event_Redeem",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "from",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "recipient",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "redeemiTokenAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "redeemUnderlyingAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

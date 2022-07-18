@@ -1,0 +1,120 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xc549a5c701cb6e6cbc091007a80c089c49595468",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "nonce",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "timestamp",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "signerWallet",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "contract IERC20",
+                    "name": "signerToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "signerAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "signerFee",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "senderWallet",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "contract IERC20",
+                    "name": "senderToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "senderAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Swap",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "airswap",
+        "table_name": "Light_event_Swap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "nonce",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "timestamp",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerWallet",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "signerFee",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "senderWallet",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "senderToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "senderAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

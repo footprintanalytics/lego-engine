@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd8ee69652e4e4838f2531732a46d1f7f584f0b7f",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "withdrawToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "bytes32",
+                    "name": "loanId",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "withdrawAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "WithdrawCollateral",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bzx",
+        "table_name": "LoanMaintenance_event_WithdrawCollateral",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "withdrawToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "loanId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "withdrawAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

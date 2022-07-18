@@ -1,0 +1,29 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },{
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },{
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },{
+    "description": "token_amount",
+    "name": "token_amount",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tvl",
+    "name": "tvl",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  }
+]

@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "_newBorrowerOperationsAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "BorrowerOperationsAddressChanged",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "liquity",
+        "table_name": "LUSD_event_BorrowerOperationsAddressChanged",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_newBorrowerOperationsAddress",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

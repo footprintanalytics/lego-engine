@@ -1,0 +1,28 @@
+address,name,description
+0x19d97d8fa813ee2f51ad4b4e04ea08baf4dffc28,Badger: Vault (Badger setts),Badger
+0x6def55d2e18486b9ddfaa075bc4e4ee0b28c1545,Badger: Vault (renCrv setts),Curve.fi renBTC/wBTC
+0xd04c48a53c111300ad41190d63681ed3dad998ec,Badger: Vault (sbtcCrv setts),Curve.fi renBTC/wBTC/sBTC
+0xb9d076fde463dbc9f915e5392f807315bf940334,Badger: Vault (tbtcCrv setts),Curve.fi tBTC/sbtcCrv
+0xaf5a1decfa95baf63e0084a35c62592b774a2a87,Badger: Vault (harvest.renCrv sett),Curve.fi renBTC/wBTC
+0x235c9e24d3fb2fafd58a2e49d454fdcd2dbf7ff1,Badger: Vault (uniBadgerWbtc sett),Uniswap WBTC/BADGER LP
+0xc17078fdd324cc473f8175dc5290fae5f2e84714,uniDiggWbtc,Uniswap WBTC/DIGG LP
+0x758a43ee2bff8230eeb784879cdcff4828f2544d,sushiWbtcEth,SushiSwap WBTC/ETH LP
+0x1862a18181346ebd9edaf800804f89190def24a5,sushiBadgerWbtc,SushiSwap WBTC/BADGER LP
+0x88128580acdd9c04ce47afce196875747bf2a9f6,sushiDiggWbtc,SushiSwap WBTC/DIGG LP
+0x7e7e112a68d8d2e221e11047a72ffc1065c38e1a,digg,Digg
+0x4b92d19c11435614cd49af1b589001b7c08cd4d5,wBtc,Wrapped BTC
+0x2b5455aac8d64c14786c3a29858e43b5945819c0,Badger Sett Convex CRV,Convex CRV
+0x53c8e199eb2cb7c01543c137078a038937a68e40,Badger Sett Convex Token,Convex Token
+0x27e98fc7d05f54e544d16f58c194c2d7ba71e3b5,Badger Sett Curve.fi USD-BTC-ETH,Curve.fi USD-BTC-ETH
+0x8c76970747afd5398e958bdfada4cf0b9fca16c4,Badger Sett Curve.fi hBTC/wBTC,Curve.fi hBTC/wBTC
+0x55912d0cf83b75c492e761932abc4db4a5cb1b17,Badger Sett Curve.fi pBTC/sbtcCRV,Curve.fi pBTC/sbtcCRV
+0xf349c0faa80fc1870306ac093f75934078e28991,Badger Sett Curve.fi oBTC/sbtcCRV,Curve.fi oBTC/sbtcCRV
+0x5dce29e92b1b939f8e8c60dcf15bde82a85be4a9,Badger Sett Curve.fi bBTC/sbtcCRV,Curve.fi bBTC/sbtcCRV
+0x8a8ffec8f4a0c8c9585da95d9d97e8cd6de273de,Badger Sett SushiSwap LP Token,SushiSwap LP Token
+0xbe08ef12e4a553666291e9ffc24fccfd354f2dd2,Badger Sett Curve.fi USD-BTC-ETH,Curve.fi USD-BTC-ETH
+0xa9429271a28f8543efffa136994c0839e7d7bf77,Badger: Staking Badger setts,Badger Sett Badger 
+0x2296f174374508278dc12b806a7f27c87d53ca15,Badger: Staking renCrv setts,Badger Sett Curve.fi renBTC/wBTC
+0x10fc82867013fce1bd624fafc719bb92df3172fc,Badger: Staking sbtcCrv setts,Badger Sett Curve.fi renBTC/wBTC/sBTC
+0x085a9340ff7692ab6703f17ab5ffc917b580a6fd,Badger: Staking tbtcCrv setts,Badger Sett Curve.fi tBTC/sbtcCrv
+0xa207d69ea6fb967e54baa8639c408c31767ba62d,Badger: Staking uniBadgerWbtc setts,Badger Sett Uniswap V2
+0x612f681bcd12a0b284518d42d2dbcc73b146eb65,Badger: Staking uniBadgerWbtc sett,Badger Sett SushiSwap LP Toke

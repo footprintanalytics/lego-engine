@@ -1,0 +1,20 @@
+[
+  {
+    "description": "protocol_slug",
+    "name": "protocol_slug",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "first_day",
+    "name": "first_day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "count",
+    "name": "count",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

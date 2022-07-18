@@ -1,0 +1,68 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "idToken",
+    "name": "id_token",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "firstName",
+    "name": "first_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "lastName",
+    "name": "last_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "verifyResult.googlId",
+    "name": "verify_result_googl_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "verifyResult.firstName",
+    "name": "verify_result_first_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "verifyResult.lastName",
+    "name": "verify_result_last_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "verifyResult.email",
+    "name": "verify_result_email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "verifyResult.emailVerified",
+    "name": "verify_result_email_verified",
+    "type": "BOOL",
+    "mode": "NULLABLE"
+  }
+]

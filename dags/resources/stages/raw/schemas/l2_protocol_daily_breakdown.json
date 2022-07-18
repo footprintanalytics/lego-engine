@@ -1,0 +1,26 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "assets",
+    "name": "assets",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "percentage",
+    "name": "percentage",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

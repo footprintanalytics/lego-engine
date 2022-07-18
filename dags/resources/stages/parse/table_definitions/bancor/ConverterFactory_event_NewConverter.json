@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x5c58ac8f88a344bf02323b8d405d5092170a03e0",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "uint16",
+                    "name": "_type",
+                    "type": "uint16"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "contract IConverter",
+                    "name": "_converter",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_owner",
+                    "type": "address"
+                }
+            ],
+            "name": "NewConverter",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bancor",
+        "table_name": "ConverterFactory_event_NewConverter",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_type",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_converter",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_owner",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

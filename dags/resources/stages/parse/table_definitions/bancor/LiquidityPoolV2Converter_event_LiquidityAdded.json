@@ -1,0 +1,71 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "SELECT _converter FROM `footprint-etl.ethereum_bancor.ConverterFactory_v2_event_NewConverter`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "_provider",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "name": "_reserveToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "_amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_newBalance",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "_newSupply",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LiquidityAdded",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "bancor",
+        "table_name": "LiquidityPoolV2Converter_event_LiquidityAdded",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_provider",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_reserveToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_amount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_newBalance",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_newSupply",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

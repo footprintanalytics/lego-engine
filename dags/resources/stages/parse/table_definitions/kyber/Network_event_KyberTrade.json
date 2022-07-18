@@ -1,0 +1,121 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x65bf64ff5f51272f729bdcd7acfb00677ced86cd",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "name": "trader",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "src",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "dest",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "srcAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "dstAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "destAddress",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "ethWeiValue",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "reserve1",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "reserve2",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "name": "hint",
+                    "type": "bytes"
+                }
+            ],
+            "name": "KyberTrade",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "kyber",
+        "table_name": "Network_event_KyberTrade",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "trader",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "src",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "dest",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "dstAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "destAddress",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "ethWeiValue",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "reserve1",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "reserve2",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "hint",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

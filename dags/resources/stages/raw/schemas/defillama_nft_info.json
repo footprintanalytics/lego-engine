@@ -1,0 +1,98 @@
+[
+  {
+    "description": "on_date",
+    "name": "on_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_volume_usd",
+    "name": "total_volume_usd",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "address",
+    "name": "address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "logo",
+    "name": "logo",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "marketplaces",
+    "name": "marketplaces",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "chains",
+    "name": "chains",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "description": "floor",
+    "name": "floor",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "owners",
+    "name": "owners",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_volume",
+    "name": "total_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "category",
+    "name": "category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "SK",
+    "name": "SK",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "PK",
+    "name": "PK",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "daily_volume_usd",
+    "name": "daily_volume_usd",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "daily_volume",
+    "name": "daily_volume",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "slug",
+    "name": "slug",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

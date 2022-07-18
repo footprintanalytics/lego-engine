@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x9902475a6ffc0377b034bf469ee0879f3bd273fb",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "bytes32",
+                    "name": "forgeId",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "underlyingAsset",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "expiry",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amountToTokenize",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amountTokenMinted",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                }
+            ],
+            "name": "MintYieldTokens",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "pendle",
+        "table_name": "PendleAaveV2Forge_event_MintYieldTokens",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "forgeId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "underlyingAsset",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "expiry",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountToTokenize",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amountTokenMinted",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

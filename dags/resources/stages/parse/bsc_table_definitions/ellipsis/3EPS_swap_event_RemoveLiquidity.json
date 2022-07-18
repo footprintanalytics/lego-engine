@@ -1,0 +1,61 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x160caed03795365f3a589f10c379ffa7d75d4e76",
+        "abi": {
+            "name": "RemoveLiquidity",
+            "inputs": [
+                {
+                    "name": "provider",
+                    "type": "address",
+                    "indexed": true
+                },
+                {
+                    "name": "token_amounts",
+                    "type": "uint256[3]",
+                    "indexed": false
+                },
+                {
+                    "name": "fees",
+                    "type": "uint256[3]",
+                    "indexed": false
+                },
+                {
+                    "name": "token_supply",
+                    "type": "uint256",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "ellipsis",
+        "table_name": "3EPS_swap_event_RemoveLiquidity",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "provider",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token_amounts",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fees",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "token_supply",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

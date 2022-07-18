@@ -1,0 +1,1 @@
+SELECT `day`,protocol_slug,chain,new_users,unique_users,protocol_name,total_users FROM `gaia-data.origin_data.protocol_transaction_daily_stats`

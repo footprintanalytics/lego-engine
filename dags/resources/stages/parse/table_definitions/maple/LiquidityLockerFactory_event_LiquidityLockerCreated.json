@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x966528bb1c44f96b3aa8fbf411ee896116b068c9",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "owner",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "liquidityLocker",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "liquidityAsset",
+                    "type": "address"
+                }
+            ],
+            "name": "LiquidityLockerCreated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "maple",
+        "table_name": "LiquidityLockerFactory_event_LiquidityLockerCreated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "owner",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "liquidityLocker",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "liquidityAsset",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

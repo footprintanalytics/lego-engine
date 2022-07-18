@@ -1,0 +1,179 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x4572f2554421bd64bef1c22c8a81840e8d496bea",
+        "abi": {
+            "constant": false,
+            "inputs": [
+                {
+                    "components": [
+                        {
+                            "internalType": "uint256",
+                            "name": "nonce",
+                            "type": "uint256"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "expiry",
+                            "type": "uint256"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "internalType": "bytes4",
+                                    "name": "kind",
+                                    "type": "bytes4"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "wallet",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "token",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "amount",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "id",
+                                    "type": "uint256"
+                                }
+                            ],
+                            "internalType": "struct Types.Party",
+                            "name": "signer",
+                            "type": "tuple"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "internalType": "bytes4",
+                                    "name": "kind",
+                                    "type": "bytes4"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "wallet",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "token",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "amount",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "id",
+                                    "type": "uint256"
+                                }
+                            ],
+                            "internalType": "struct Types.Party",
+                            "name": "sender",
+                            "type": "tuple"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "internalType": "bytes4",
+                                    "name": "kind",
+                                    "type": "bytes4"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "wallet",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "token",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "amount",
+                                    "type": "uint256"
+                                },
+                                {
+                                    "internalType": "uint256",
+                                    "name": "id",
+                                    "type": "uint256"
+                                }
+                            ],
+                            "internalType": "struct Types.Party",
+                            "name": "affiliate",
+                            "type": "tuple"
+                        },
+                        {
+                            "components": [
+                                {
+                                    "internalType": "address",
+                                    "name": "signatory",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "address",
+                                    "name": "validator",
+                                    "type": "address"
+                                },
+                                {
+                                    "internalType": "bytes1",
+                                    "name": "version",
+                                    "type": "bytes1"
+                                },
+                                {
+                                    "internalType": "uint8",
+                                    "name": "v",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "internalType": "bytes32",
+                                    "name": "r",
+                                    "type": "bytes32"
+                                },
+                                {
+                                    "internalType": "bytes32",
+                                    "name": "s",
+                                    "type": "bytes32"
+                                }
+                            ],
+                            "internalType": "struct Types.Signature",
+                            "name": "signature",
+                            "type": "tuple"
+                        }
+                    ],
+                    "internalType": "struct Types.Order",
+                    "name": "order",
+                    "type": "tuple"
+                }
+            ],
+            "name": "swap",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "airswap",
+        "table_name": "swap_call_swap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "order",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

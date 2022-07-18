@@ -1,0 +1,27 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+    {
+    "description": "protocol_id",
+    "name": "protocol_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+
+  {
+    "description": "active_user_count_24h",
+    "name": "active_user_count_24h",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_user_count",
+    "name": "total_user_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

@@ -1,0 +1,164 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x11be6f5520fee8e867e20af9c9d2c8a09b909b83','0x904144473fde753dc0729608cfeea6f4a8b275e6'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "string",
+                    "name": "source",
+                    "type": "string"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "bytes32",
+                    "name": "transactionHash",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "userAddr",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "takerAssetAddr",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "takerAssetAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "makerAddr",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "makerAssetAddr",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "makerAssetAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "receiverAddr",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "settleAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "receivedAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint16",
+                    "name": "feeFactor",
+                    "type": "uint16"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint16",
+                    "name": "subsidyFactor",
+                    "type": "uint16"
+                }
+            ],
+            "name": "Swapped",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "tokenlon",
+        "table_name": "AMMWrapper_event_Swapped",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "source",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "transactionHash",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "userAddr",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "takerAssetAddr",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "takerAssetAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "makerAddr",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "makerAssetAddr",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "makerAssetAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "receiverAddr",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "settleAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "receivedAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "feeFactor",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "subsidyFactor",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x551a7cff4de931f32893c928bbc3d25bf1fc5147",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "feeTo",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "feesEarnedFraction",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LogWithdrawFees",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "abracadabra",
+        "table_name": "CauldronLowRiskV1_event_LogWithdrawFees",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "feeTo",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "feesEarnedFraction",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

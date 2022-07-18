@@ -1,0 +1,26 @@
+[
+  {
+    "description": "被覆盖的token地址",
+    "name": "covered_token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "被覆盖的token所在的链",
+    "name": "covered_token_chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "用来覆盖的token地址",
+    "name": "cover_token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "用来覆盖的token所在的链",
+    "name": "cover_token_chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

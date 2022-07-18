@@ -1,0 +1,96 @@
+[
+  {
+    "description": "chain",
+    "name": "chain",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },{
+    "description": "day",
+    "name": "day",
+    "type": "DATE",
+    "mode": "REQUIRED"
+  },{
+    "description": "block_number",
+    "name": "block_number",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "block_timestamp",
+    "name": "block_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "transaction_hash",
+    "name": "transaction_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "contract_address",
+    "name": "contract_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "operator",
+    "name": "operator",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_id",
+    "name": "token_id",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_address",
+    "name": "token_address",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_amount_raw",
+    "name": "token_amount_raw",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "pool_id",
+    "name": "pool_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "version",
+    "name": "version",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_symbol",
+    "name": "token_symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "token_amount",
+    "name": "token_amount",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "usd_value",
+    "name": "usd_value",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]

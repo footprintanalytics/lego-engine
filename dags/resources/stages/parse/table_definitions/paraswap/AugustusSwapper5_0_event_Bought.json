@@ -1,0 +1,98 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x1bd435f3c054b6e901b7b108a0ab7617c808677b",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "initiator",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "beneficiary",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "srcToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "destToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "srcAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "receivedAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "string",
+                    "name": "referrer",
+                    "type": "string"
+                }
+            ],
+            "name": "Bought",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "paraswap",
+        "table_name": "AugustusSwapper5_0_event_Bought",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "initiator",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "beneficiary",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "destToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "receivedAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "referrer",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

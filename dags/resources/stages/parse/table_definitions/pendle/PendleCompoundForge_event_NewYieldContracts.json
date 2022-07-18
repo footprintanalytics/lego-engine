@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xc02ac197a4d32d93d473779fbea2dca1fb313ed5",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "bytes32",
+                    "name": "forgeId",
+                    "type": "bytes32"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "underlyingAsset",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "expiry",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "ot",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "xyt",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "yieldBearingAsset",
+                    "type": "address"
+                }
+            ],
+            "name": "NewYieldContracts",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "pendle",
+        "table_name": "PendleCompoundForge_event_NewYieldContracts",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "forgeId",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "underlyingAsset",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "expiry",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "ot",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "xyt",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "yieldBearingAsset",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

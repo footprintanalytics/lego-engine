@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "SELECT distinct `DSP` FROM `footprint-etl.ethereum_dodo.DSPFactory_event_NewDSP`",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "fromToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "toToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "fromAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "toAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "trader",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "receiver",
+                    "type": "address"
+                }
+            ],
+            "name": "DODOSwap",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "dodo",
+        "table_name": "DSP_event_DODOSwap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "fromToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "fromAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "toAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "trader",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "receiver",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

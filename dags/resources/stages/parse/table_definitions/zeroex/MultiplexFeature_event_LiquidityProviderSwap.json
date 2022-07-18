@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "inputToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "outputToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "inputTokenAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "outputTokenAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "provider",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "recipient",
+                    "type": "address"
+                }
+            ],
+            "name": "LiquidityProviderSwap",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "zeroex",
+        "table_name": "MultiplexFeature_event_LiquidityProviderSwap",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "inputToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "outputToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "inputTokenAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "outputTokenAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "provider",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "recipient",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

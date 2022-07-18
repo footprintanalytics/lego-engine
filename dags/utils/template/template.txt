@@ -1,0 +1,36 @@
+from common.common_dex_model import DexModel
+
+
+class ${project}Dex(DexModel):
+    project_name = 'ethereum_dex_${project}'
+    task_name = '${project}_dex'
+    task_liquidity_name = '${project}_dex_liquidity'
+    task_swap_name = '${project}_dex_swap'
+    execution_time = '5 3 * * *'
+    history_date = '2021-10-20'
+    # source_liquidity_sql_file = 'dex/${chain}/${project}/liquidity.sql'
+    source_swap_sql_file = 'dex/${chain}/${project}/swap.sql'
+
+
+if __name__ == '__main__':
+    pool = ${project}Dex()
+
+    daily_sql = pool.build_daily_data_sql()
+    file1 = open('daily_sql.sql', 'w')
+    file1.write(daily_sql["swap_sql"])
+
+    # history_sql = pool.build_history_data_sql()
+    # print(history_sql["add_liquidity_sql"])
+    # print(history_sql["swap_sql"])
+    # file1 = open('history_sql.sql', 'w')
+    # file1.write(history_sql["add_liquidity_sql"])
+    # file1.write(history_sql["swap_sql"])
+    #
+    # print(pool.get_history_table_name())
+
+    # pool.run_daily_job()
+    # pool.parse_daily_swap_data()
+
+    # pool.parse_history_data()
+    # pool.create_all_data_view()
+    # print(None or 'a')

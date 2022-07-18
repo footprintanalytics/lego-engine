@@ -1,0 +1,109 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "bytes16",
+                    "name": "uuid",
+                    "type": "bytes16"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "address",
+                    "name": "initiator",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "beneficiary",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "srcToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "destToken",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "srcAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "receivedAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "expectedAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Swapped",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "paraswap",
+        "table_name": "AugustusSwapper6_0_event_Swapped",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "uuid",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "initiator",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "beneficiary",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "destToken",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "srcAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "receivedAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "expectedAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

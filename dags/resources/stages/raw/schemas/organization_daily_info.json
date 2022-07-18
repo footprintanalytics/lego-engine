@@ -1,0 +1,74 @@
+[
+  {
+    "description": "day",
+    "name": "day",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "organization_id",
+    "name": "organization_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "organization_name",
+    "name": "organization_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "platform",
+    "name": "platform",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "logo",
+    "name": "logo",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_in_usd",
+    "name": "total_in_usd",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_out_usd",
+    "name": "total_out_usd",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_value_usd",
+    "name": "total_value_usd",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_num_members",
+    "name": "total_num_members",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_num_proposals",
+    "name": "total_num_proposals",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_num_voters",
+    "name": "total_num_voters",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "voters_participation",
+    "name": "voters_participation",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  }
+]

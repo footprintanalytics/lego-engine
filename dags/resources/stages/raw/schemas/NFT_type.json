@@ -1,0 +1,14 @@
+[
+  {
+    "description": "protocol_name",
+    "name": "protocol_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "type_NFT",
+    "name": "type_NFT",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

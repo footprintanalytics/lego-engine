@@ -1,0 +1,61 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0xe15461b18ee31b7379019dc523231c57d1cbc18c','0x50c1a2ea0a861a967d9d0ffe2ae4012c2e053804'",
+        "abi": {
+            "name": "NewExperimentalVault",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "token",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "deployer",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "vault",
+                    "indexed": false
+                },
+                {
+                    "type": "string",
+                    "name": "api_version",
+                    "indexed": false
+                }
+            ],
+            "anonymous": false,
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "yearn",
+        "table_name": "NewExperimentalVault_event_NewExperimentalVault",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "token",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "deployer",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "vault",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "api_version",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

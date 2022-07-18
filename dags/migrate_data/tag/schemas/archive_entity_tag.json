@@ -1,0 +1,56 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "tagName",
+    "name": "tag_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "entityTypeNsName",
+    "name": "entity_type_ns_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "entityId",
+    "name": "entity_id",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "entityNsName",
+    "name": "entity_ns_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "opId",
+    "name": "op_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "originOpId",
+    "name": "origin_op_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

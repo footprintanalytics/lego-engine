@@ -1,0 +1,74 @@
+[
+  {
+    "description": "_id",
+    "name": "_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "createdAt",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updatedAt",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "email",
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "firstName",
+    "name": "first_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "category",
+    "name": "category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "lastName",
+    "name": "last_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "identity",
+    "name": "identity",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "metabaseId",
+    "name": "metabase_id",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "channel",
+    "name": "channel",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "googlId",
+    "name": "googl_id",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

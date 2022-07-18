@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd18140b4b819b895a3dba5442f959fa44994af50",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "_user",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_paidAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_lockedAmount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "_boostedAmount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Staked",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "convex",
+        "table_name": "Locked_CVX_event_Staked",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "_user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_paidAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_lockedAmount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "_boostedAmount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

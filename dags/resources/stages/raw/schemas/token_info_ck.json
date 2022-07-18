@@ -1,0 +1,50 @@
+[
+  {
+    "description": "coin_gecko_id",
+    "name": "coin_gecko_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "symbol",
+    "name": "symbol",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+   {
+    "description": "name",
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+   {
+    "description": "unique_symbol",
+    "name": "unique_symbol",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "token",
+    "name": "token",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "total_supply",
+    "name": "total_supply",
+    "type": "BIGNUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "created_at",
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "updated_at",
+    "name": "updated_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

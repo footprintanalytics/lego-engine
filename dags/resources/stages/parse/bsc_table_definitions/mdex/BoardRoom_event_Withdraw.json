@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "'0x55c11417c7d9789161a3f8478b8b9057830a6fc9','0x6aee12e5eb987b3be1ba8e621be7c4804925ba68','0xdf484250c063c46f2e1f228954f82266cb987d78','0x71e9b620d7873cb9583c69650162bd6ddfa38cb2','0xf54dd53eae60fbfccdf343715a51795182539d37','0x68c7af56c71033de78f5620c192bbd46e82c313b','0xbfbfc0c1be94ae0ac0da9af598d2e0434156aa22','0xf1ac72896fd98cfbd922505acd0d5971575aa960','0xdb596d315ce24d779e3c2c920053d46dd71e2f48','0xcb1f4ad14f340a5279521646927038bf503371d1','0xac0a22b5411aed7399a7c0cd943977a71c293eb4','0xb405616617c12f5c5ab9f645c5d5abd58673ff52','0x4454a6ccd2732c8e1c49fff327dcc392d9540d32','0x0e10c1a0d5a66906598c8f4c9d4c7b7646d5f51b','0x5aac84c6d1af071cce78a12519c8ccd813b063aa','0xc5c9b313ab4376d4c28b6106eb3e054738dd3379','0xac35da9abb227fd10808e34999ed38ed05dbdf5f','0xb8f3e968e41958fd3b266ac3c5dfe0f81e607a52','0x25a9809df02991ba66b784face246e15a25cf3e0','0xda905613e3da4dd68331c10262a944125ae2c508','0x632212c293e9c38c81bcfad6fdc5c245646eac32','0x543d581b0e85e5362ca53d6305c12034be241de5','0x99dca07444263c5b34fe34e4a2c4a862b1e398bd'",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "user",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "uint256",
+                    "name": "pid",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
+                }
+            ],
+            "name": "Withdraw",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "mdex",
+        "table_name": "BoardRoom_event_Withdraw",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "user",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "pid",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "parser": {
+        "type": "trace",
+        "contract_address": "0x50fda034c0ce7a8f7efdaebda7aa7ca21cc1267e",
+        "abi": {
+            "constant": false,
+            "inputs": [
+                {
+                    "internalType": "contract IERC20[]",
+                    "name": "tokens",
+                    "type": "address[]"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "minReturn",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256[]",
+                    "name": "distribution",
+                    "type": "uint256[]"
+                },
+                {
+                    "internalType": "uint256[]",
+                    "name": "flags",
+                    "type": "uint256[]"
+                }
+            ],
+            "name": "swapMulti",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "function"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "oneproto",
+        "table_name": "OneSplitAudit_call_swapMulti",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "tokens",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "amount",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "minReturn",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "distribution",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "flags",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

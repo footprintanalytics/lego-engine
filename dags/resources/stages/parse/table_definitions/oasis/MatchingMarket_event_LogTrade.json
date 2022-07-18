@@ -1,0 +1,65 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0x794e6e91555438afc3ccf1c5076a74f42133d08d",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "pay_amt",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "pay_gem",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "buy_amt",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "buy_gem",
+                    "type": "address"
+                }
+            ],
+            "name": "LogTrade",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "oasis",
+        "table_name": "MatchingMarket_event_LogTrade",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "pay_amt",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "pay_gem",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "buy_amt",
+                "description": "",
+                "type": "STRING"
+            },
+            {
+                "name": "buy_gem",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}

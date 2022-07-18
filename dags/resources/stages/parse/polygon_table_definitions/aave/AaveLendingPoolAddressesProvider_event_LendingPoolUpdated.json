@@ -1,0 +1,32 @@
+{
+    "parser": {
+        "type": "log",
+        "contract_address": "0xd05e3e715d945b59290df0ae8ef85c1bdb684744",
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "newAddress",
+                    "type": "address"
+                }
+            ],
+            "name": "LendingPoolUpdated",
+            "type": "event"
+        },
+        "field_mapping": {}
+    },
+    "table": {
+        "dataset_name": "aave",
+        "table_name": "AaveLendingPoolAddressesProvider_event_LendingPoolUpdated",
+        "table_description": "",
+        "schema": [
+            {
+                "name": "newAddress",
+                "description": "",
+                "type": "STRING"
+            }
+        ]
+    }
+}
